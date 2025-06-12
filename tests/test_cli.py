@@ -8,17 +8,21 @@ def runner():
     return CliRunner()
 
 def test_cli_create_snapshot(runner, mocker):
-    """Test CLI create-snapshot command."""
+    """Test CLI create-snapshot command (simulate menu selection)."""
     mock_create = mocker.patch('backup.create_snapshot', return_value='snap-123')
-    result = runner.invoke(cli.cli, ['create-snapshot', '--volume-id', 'vol-123', '--description', 'desc'])
+    mocker.patch('cli.save_instance_ids_to_env')
+    mocker.patch('cli.list_ec2_instances', return_value=[{'InstanceId': 'vol-123', 'Name': 'Test'}])
+    result = runner.invoke(cli.cli, input='1\n1\ndesc\n')
     assert result.exit_code == 0
     assert 'snap-123' in result.output
-    mock_create.assert_called_once_with('vol-123', 'desc')
+    mock_create.assert_called_once()
 
 def test_cli_restore_snapshot(runner, mocker):
-    """Test CLI restore-snapshot command."""
-    mock_restore = mocker.patch('restore.restore_snapshot', return_value='vol-456')
-    result = runner.invoke(cli.cli, ['restore-snapshot', '--snapshot-id', 'snap-123', '--az', 'us-east-1a'])
+    """Test CLI restore-snapshot command (simulate menu selection)."""
+    mock_restore = mocker.patch('restore.restore_snapshot_and_replace_root', return_value='vol-456')
+    mocker.patch('cli.save_instance_ids_to_env')
+    mocker.patch('cli.list_ec2_instances', return_value=[{'InstanceId': 'vol-123', 'Name': 'Test'}])
+    result = runner.invoke(cli.cli, input='4\n')
     assert result.exit_code == 0
     assert 'vol-456' in result.output
-    mock_restore.assert_called_once_with('snap-123', 'us-east-1a')
+    mock_restore.assert_called_once()

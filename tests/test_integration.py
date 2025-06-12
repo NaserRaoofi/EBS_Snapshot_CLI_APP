@@ -1,7 +1,10 @@
 """Integration test for EC2 snapshot and volume using moto."""
 import boto3
 import pytest
-from moto import mock_ec2
+try:
+    from moto import mock_ec2
+except ImportError:
+    from moto.ec2 import mock_ec2
 import os
 
 @mock_ec2

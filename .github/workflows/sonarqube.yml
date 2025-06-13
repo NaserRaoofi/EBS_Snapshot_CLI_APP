@@ -2,7 +2,7 @@ name: SonarCloud Analysis
 
 on:
   workflow_run:
-    workflows: ["Test Python Code"]  # Make sure this matches exactly the test workflow name
+    workflows: ["Test Python Code"]  # Matches your test job name
     types:
       - completed
 
@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install project dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
@@ -34,9 +34,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=ebs_snapshot_cli_app \           # ✅ Use the exact project key from SonarCloud
-            -Dsonar.organization=naserraoofi \                   # ✅ Must match your SonarCloud org ID (all lowercase)
+            -Dsonar.projectKey=ebs_snapshot_cli_app \
+            -Dsonar.organization=naserraoofi \
             -Dsonar.sources=. \
             -Dsonar.host.url=https://sonarcloud.io \
-            -Dsonar.python.coverage.reportPaths=coverage.xml \  # Optional: only if you generate coverage
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}

@@ -65,6 +65,20 @@ pytest tests/
 
 GitHub Actions will automatically lint and test your code on every push and pull request.
 
+## Versioning
+
+This project uses semantic versioning. The current stable release is tagged as `v1.0.0` on GitHub.
+
+## How to Contribute
+
+- Fork the repository
+- Create a feature branch
+- Submit a pull request
+
+## Changelog
+
+- v1.0.0: Initial stable release with full test coverage, CI, and CLI functionality.
+
 ## License
 
 This project is licensed under the MIT License.

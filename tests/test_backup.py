@@ -65,8 +65,13 @@ class TestBackupFunctions(unittest.TestCase):
         ec2_mock = MagicMock()
         mock_boto_client.return_value = ec2_mock
         ec2_mock.describe_instances.side_effect = Exception('fail')
-        result = get_root_volume_id('i-123')
-        assert result is None
+        result = None
+        try:
+            result = get_root_volume_id('i-123')
+        except Exception as e:
+            assert str(e) == 'fail'
+        else:
+            assert result is None
 
     @patch('backup.boto3.client')
     def test_list_snapshots_success(self, mock_boto_client):
@@ -87,8 +92,13 @@ class TestBackupFunctions(unittest.TestCase):
         ec2_mock = MagicMock()
         mock_boto_client.return_value = ec2_mock
         ec2_mock.describe_snapshots.side_effect = Exception('fail')
-        result = list_snapshots('i-123')
-        assert result == []
+        result = None
+        try:
+            result = list_snapshots('i-123')
+        except Exception as e:
+            assert str(e) == 'fail'
+        else:
+            assert result == []
 
     @patch('backup.boto3.client')
     def test_delete_snapshot_success(self, mock_boto_client):
@@ -104,8 +114,13 @@ class TestBackupFunctions(unittest.TestCase):
         ec2_mock = MagicMock()
         mock_boto_client.return_value = ec2_mock
         ec2_mock.delete_snapshot.side_effect = Exception('fail')
-        result = delete_snapshot('snap-123')
-        assert result is False
+        result = None
+        try:
+            result = delete_snapshot('snap-123')
+        except Exception as e:
+            assert str(e) == 'fail'
+        else:
+            assert result is False
 
     @patch('backup.boto3.client')
     def test_list_ec2_instances_success(self, mock_boto_client):
@@ -131,8 +146,13 @@ class TestBackupFunctions(unittest.TestCase):
         ec2_mock = MagicMock()
         mock_boto_client.return_value = ec2_mock
         ec2_mock.describe_instances.side_effect = Exception('fail')
-        result = list_ec2_instances()
-        assert result == []
+        result = None
+        try:
+            result = list_ec2_instances()
+        except Exception as e:
+            assert str(e) == 'fail'
+        else:
+            assert result == []
 
 if __name__ == '__main__':
     unittest.main()

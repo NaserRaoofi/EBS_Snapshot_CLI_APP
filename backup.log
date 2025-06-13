@@ -12,3 +12,27 @@
 2025-06-12 10:48:45,934 [ERROR] ❌ No running EC2 instances found.
 2025-06-12 11:04:35,004 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
 2025-06-12 11:04:35,836 [ERROR] ❌ No running EC2 instances found.
+2025-06-13 09:54:06,927 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-13 09:54:07,941 [INFO] 📦 EC2 Snapshot Tool
+2025-06-13 09:54:07,941 [INFO] 1. Take snapshot
+2025-06-13 09:54:07,942 [INFO] 2. List snapshots
+2025-06-13 09:54:07,942 [INFO] 3. Delete a snapshot
+2025-06-13 09:54:07,942 [INFO] 4. Restore from snapshot
+2025-06-13 09:54:16,736 [INFO] 🖥️ Available EC2 Instances:
+2025-06-13 09:54:16,737 [INFO] 1. i-016314b81e7275c02 - sir1_moc_test
+2025-06-13 09:54:19,922 [WARNING] ⚠️ No snapshots found.
+2025-06-13 10:35:52,697 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-13 10:35:53,556 [INFO] 📦 EC2 Snapshot Tool
+2025-06-13 10:35:53,556 [INFO] 1. Take snapshot
+2025-06-13 10:35:53,556 [INFO] 2. List snapshots
+2025-06-13 10:35:53,557 [INFO] 3. Delete a snapshot
+2025-06-13 10:35:53,557 [INFO] 4. Restore from snapshot
+2025-06-13 10:49:24,737 [ERROR] Unexpected error occurred: 
+Traceback (most recent call last):
+  File "/media/sirwan/New Volume1/VScode/ec2_backup_tool/./cli.py", line 37, in cli
+    choice = click.prompt("Select an option", type=int)
+  File "/media/sirwan/New Volume1/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/click/termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+  File "/media/sirwan/New Volume1/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/click/termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort

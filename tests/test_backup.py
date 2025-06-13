@@ -1,4 +1,8 @@
 """Unit tests for create_snapshot in backup.py."""
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import unittest
 from unittest.mock import patch, MagicMock, ANY
 from backup import create_snapshot, get_root_volume_id, list_snapshots, delete_snapshot, list_ec2_instances

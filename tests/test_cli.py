@@ -1,5 +1,8 @@
 """Functional CLI tests for backup and restore commands using Click."""
+import sys
 import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pytest
 from click.testing import CliRunner
 import cli

@@ -1,7 +1,11 @@
 """Functional CLI tests for backup and restore commands using Click."""
+import os
 import pytest
 from click.testing import CliRunner
 import cli
+
+# Set AWS_DEFAULT_REGION to ensure all AWS SDK calls use the correct region
+os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'
 
 @pytest.fixture
 def runner():
@@ -12,9 +16,11 @@ def test_cli_create_snapshot(runner, mocker):
     mock_create = mocker.patch('backup.create_snapshot', return_value='snap-123')
     mocker.patch('cli.save_instance_ids_to_env')
     mocker.patch('cli.list_ec2_instances', return_value=[{'InstanceId': 'vol-123', 'Name': 'Test'}])
+    # Patch get_root_volume_id to avoid real AWS call
+    mocker.patch('backup.get_root_volume_id', return_value='vol-root-123')
     result = runner.invoke(cli.cli, input='1\n1\ndesc\n')
     assert result.exit_code == 0
-    assert 'snap-123' in result.output
+    assert 'snap-123' in result.output or 'Snapshot created: snap-123' in result.output
     mock_create.assert_called_once()
 
 def test_cli_restore_snapshot(runner, mocker):
@@ -24,5 +30,5 @@ def test_cli_restore_snapshot(runner, mocker):
     mocker.patch('cli.list_ec2_instances', return_value=[{'InstanceId': 'vol-123', 'Name': 'Test'}])
     result = runner.invoke(cli.cli, input='4\n')
     assert result.exit_code == 0
-    assert 'vol-456' in result.output
+    assert 'vol-456' in result.output or 'Restore completed successfully. New root volume: vol-456' in result.output
     mock_restore.assert_called_once()

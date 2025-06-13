@@ -1,0 +1,42 @@
+name: SonarCloud Analysis
+
+on:
+  workflow_run:
+    workflows: ["Test Python Code"]  # 👈 Must match your test workflow name
+    types:
+      - completed
+jobs:
+  sonarcloud:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    name: SonarCloud Scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install project dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install SonarScanner
+        run: |
+          npm install -g sonarqube-scanner
+
+      - name: Run SonarCloud Scan
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          sonar-scanner \
+            -Dsonar.projectKey=<YOUR_PROJECT_KEY> \
+            -Dsonar.organization=<YOUR_ORG_KEY> \
+            -Dsonar.sources=. \
+            -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.python.coverage.reportPaths=coverage.xml \
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}

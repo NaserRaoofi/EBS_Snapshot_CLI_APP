@@ -16,11 +16,14 @@ def test_cli_create_snapshot(runner, mocker):
     mock_create = mocker.patch('backup.create_snapshot', return_value='snap-123')
     mocker.patch('cli.save_instance_ids_to_env')
     mocker.patch('cli.list_ec2_instances', return_value=[{'InstanceId': 'vol-123', 'Name': 'Test'}])
-    # Patch get_root_volume_id to avoid real AWS call
     mocker.patch('backup.get_root_volume_id', return_value='vol-root-123')
+    # Patch logger to capture output
+    mock_logger = mocker.patch('cli.logger')
     result = runner.invoke(cli.cli, input='1\n1\ndesc\n')
     assert result.exit_code == 0
-    assert 'snap-123' in result.output or 'Snapshot created: snap-123' in result.output
+    # Check logger.info was called with the snapshot id
+    info_calls = [str(call) for call in mock_logger.info.call_args_list]
+    assert any('snap-123' in c for c in info_calls)
     mock_create.assert_called_once()
 
 def test_cli_restore_snapshot(runner, mocker):
@@ -28,7 +31,9 @@ def test_cli_restore_snapshot(runner, mocker):
     mock_restore = mocker.patch('restore.restore_snapshot_and_replace_root', return_value='vol-456')
     mocker.patch('cli.save_instance_ids_to_env')
     mocker.patch('cli.list_ec2_instances', return_value=[{'InstanceId': 'vol-123', 'Name': 'Test'}])
+    mock_logger = mocker.patch('cli.logger')
     result = runner.invoke(cli.cli, input='4\n')
     assert result.exit_code == 0
-    assert 'vol-456' in result.output or 'Restore completed successfully. New root volume: vol-456' in result.output
+    info_calls = [str(call) for call in mock_logger.info.call_args_list]
+    assert any('vol-456' in c for c in info_calls)
     mock_restore.assert_called_once()

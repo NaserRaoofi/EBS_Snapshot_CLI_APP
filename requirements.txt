@@ -8,4 +8,3 @@ s3transfer==0.13.0
 six==1.17.0
 urllib3==2.4.0
 pytest==8.4.0
-moto==5.1.5

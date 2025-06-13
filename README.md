@@ -42,8 +42,28 @@ To create a snapshot or restore of an EC2 instance, use the following command:
 python ./cli.py
 ```
 
-# trigger lint workflow
-# Workflow test: minor change
+## Testing
+
+This project uses `pytest` and `pytest-mock` for unit and CLI tests. To run all tests:
+
+```bash
+pytest
+```
+
+### Test Structure
+- All tests are in the `tests/` directory.
+- `pytest-mock` is used for mocking in pytest style.
+- No real AWS calls are made during tests; all AWS interactions are mocked.
+
+### Example Test Command
+
+```bash
+pytest tests/
+```
+
+## Continuous Integration
+
+GitHub Actions will automatically lint and test your code on every push and pull request.
 
 ## License
 

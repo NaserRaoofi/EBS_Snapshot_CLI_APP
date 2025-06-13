@@ -1,6 +1,6 @@
 """Unit tests for create_snapshot in backup.py."""
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch, MagicMock, ANY
 from backup import create_snapshot
 
 class TestCreateSnapshot(unittest.TestCase):
@@ -12,7 +12,19 @@ class TestCreateSnapshot(unittest.TestCase):
         ec2_mock.create_snapshot.return_value = {'SnapshotId': 'snap-123'}
         result = create_snapshot('vol-123', 'desc')
         assert result == 'snap-123'
-        ec2_mock.create_snapshot.assert_called_once_with(VolumeId='vol-123', Description='desc')
+        ec2_mock.create_snapshot.assert_called_once_with(
+            VolumeId=ANY,
+            Description='Automated snapshot',
+            TagSpecifications=[
+                {
+                    'ResourceType': 'snapshot',
+                    'Tags': [
+                        {'Key': 'instance-id', 'Value': 'vol-123'},
+                        {'Key': 'Name', 'Value': 'desc'}
+                    ]
+                }
+            ]
+        )
 
     @patch('backup.boto3.client')
     def test_create_snapshot_failure(self, mock_boto_client):

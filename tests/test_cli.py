@@ -13,17 +13,16 @@ def runner():
 
 def test_cli_create_snapshot(runner, mocker):
     """Test CLI create-snapshot command (simulate menu selection)."""
-    mock_create = mocker.patch('backup.create_snapshot', return_value='snap-123')
+    mock_create = mocker.patch('cli.create_snapshot', return_value='snap-123')
+    mocker.patch('cli.get_root_volume_id', return_value='vol-root-123')
     mocker.patch('cli.save_instance_ids_to_env')
     mocker.patch('cli.list_ec2_instances', return_value=[{'InstanceId': 'vol-123', 'Name': 'Test'}])
-    mocker.patch('backup.get_root_volume_id', return_value='vol-root-123')
-    # Patch logger to capture output
     mock_logger = mocker.patch('cli.logger')
+
     result = runner.invoke(cli.cli, input='1\n1\ndesc\n')
+
     assert result.exit_code == 0
-    # Check logger.info was called with the snapshot id
-    info_calls = [str(call) for call in mock_logger.info.call_args_list]
-    assert any('snap-123' in c for c in info_calls)
+    assert any('snap-123' in str(call) for call in mock_logger.info.call_args_list)
     mock_create.assert_called_once()
 
 def test_cli_restore_snapshot(runner, mocker):

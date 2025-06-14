@@ -86,3 +86,20 @@ jobs:
         with:
           name: gitleaks-report
           path: gitleaks.sarif
+
+  snyk:
+    name: Snyk Dependency Scan
+    needs: sonarcloud
+    if: ${{ success() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/python@v1
+        with:
+          args: --file=requirements.txt
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ec2-backup-tool"
+version = "1.0.0"
+description = "AWS EC2 snapshot management CLI tool"
+authors = [
+    { name = "Naser Raoofi", email = "sirwan.rauofi1370@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "boto3",
+    "click",
+    "python-dotenv"
+]
+
+[tool.setuptools]
+py-modules = ["backup", "cli", "logger", "restore", "utils"]

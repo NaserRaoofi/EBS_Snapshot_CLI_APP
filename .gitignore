@@ -1,0 +1,14 @@
+# Build artifacts
+/dist/
+/ec2_backup_tool.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/

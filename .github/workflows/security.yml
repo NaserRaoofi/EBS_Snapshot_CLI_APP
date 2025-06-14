@@ -82,7 +82,7 @@ jobs:
           args: detect --source=. --no-git --report-format sarif --report-path gitleaks.sarif
 
       - name: Upload Gitleaks Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: gitleaks-report
           path: gitleaks.sarif

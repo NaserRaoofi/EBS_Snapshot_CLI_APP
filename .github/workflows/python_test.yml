@@ -24,6 +24,10 @@ jobs:
       - name: Install test dependencies
         run: |
           pip install pytest moto click
+      - name: Build package (wheel and sdist)
+        run: |
+          pip install build
+          python -m build
       - name: Run tests
         env:
           AWS_ACCESS_KEY_ID: test

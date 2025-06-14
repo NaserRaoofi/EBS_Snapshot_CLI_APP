@@ -28,6 +28,9 @@ jobs:
         run: |
           pip install build
           python -m build
+      - name: Build Docker image
+        run: |
+          docker build -t ec2-backup-tool .
       - name: Run tests
         env:
           AWS_ACCESS_KEY_ID: test

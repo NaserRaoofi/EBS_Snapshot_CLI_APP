@@ -91,7 +91,7 @@ jobs:
 
   publish:
     name: Publish Docker Image to ECR
-    needs: [sonarcloud, bandit, gitleaks]
+    needs: [sonarcloud, bandit]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

@@ -1,0 +1,37 @@
+name: Deploy Docker Image to ECR
+
+on:
+  workflow_run:
+    workflows: ["Build Python Package and Docker Image"]
+    types:
+      - completed
+
+jobs:
+  publish:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Build Docker image
+        run: |
+          docker build -t ec2-backup-tool .
+      - name: Tag Docker image
+        run: |
+          IMAGE_URI=235494806851.dkr.ecr.us-east-1.amazonaws.com/ec2-backup-tool:latest
+          docker tag ec2-backup-tool:latest $IMAGE_URI
+          echo "IMAGE_URI=$IMAGE_URI" >> $GITHUB_ENV
+      - name: Push Docker image to ECR
+        run: |
+          docker push $IMAGE_URI

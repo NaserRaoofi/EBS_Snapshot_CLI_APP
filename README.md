@@ -65,6 +65,30 @@ pytest tests/
 
 GitHub Actions will automatically lint and test your code on every push and pull request.
 
+## CI/CD Pipeline Overview
+
+This project uses GitHub Actions for a robust, multi-stage CI/CD pipeline:
+
+- **Lint:** Checks code style and quality using flake8.
+- **Test:** Runs all unit and integration tests with pytest.
+- **Security & Quality:** Runs SonarCloud analysis, Bandit, and Gitleaks for code quality and security scanning.
+- **Build:** Builds the Python package (wheel and sdist) and Docker image after all security checks pass.
+- **Deploy:** Pushes the Docker image to AWS ECR only if all previous stages succeed.
+
+### Workflow Chain
+- Lint → Test → Security & Quality → Build → Deploy
+
+### Key Workflow Files
+- `.github/workflows/python_lint.yml` — Linting
+- `.github/workflows/python_test.yml` — Testing
+- `.github/workflows/security.yml` — Security & quality checks
+- `.github/workflows/build.yml` — Build package and Docker image
+- `.github/workflows/deploy.yml` — Deploy Docker image to ECR
+
+### Docker & ECR
+- The Docker image is built from the project wheel and pushed to AWS ECR after all checks pass.
+- See `Dockerfile` for build details.
+
 ## Versioning
 
 This project uses semantic versioning. The current stable release is tagged as `v1.0.0` on GitHub.

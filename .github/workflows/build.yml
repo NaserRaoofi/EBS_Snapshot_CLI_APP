@@ -1,12 +1,14 @@
 name: Build Python Package and Docker Image
 
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_run:
+    workflows: ["Security & Quality Scan"]
+    types:
+      - completed
 
 jobs:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Build Python Package and Docker Image
     runs-on: ubuntu-latest
     steps:

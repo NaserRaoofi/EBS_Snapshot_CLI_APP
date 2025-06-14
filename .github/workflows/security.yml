@@ -3,13 +3,15 @@
 name: Security & Quality Scan
 
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_run:
+    workflows: ["Test Python Code"]
+    types:
+      - completed
 
 jobs:
   sonarcloud:
     name: SonarCloud Analysis
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:

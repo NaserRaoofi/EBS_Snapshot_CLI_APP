@@ -155,3 +155,43 @@ def restore_snapshot_and_replace_root():
 
     logger.info(f"✅ Restore complete. Instance {target_instance_id} now running with root volume {volume_id}.")
     return volume_id
+
+
+def restore_snapshot_to_instance_web(snapshot_id, target_instance_id, region):
+    """
+    Restore the given snapshot to the root volume of the target EC2 instance (non-interactive, for webapp).
+    Returns a dict with status and message.
+    """
+    try:
+        # Get all instances in region
+        instances = list_ec2_instances(region)
+        target_instance = next((i for i in instances if i["InstanceId"] == target_instance_id), None)
+        if not target_instance:
+            return {"status": "error", "message": f"Target instance {target_instance_id} not found."}
+        az = target_instance["AZ"]
+        ec2 = boto3.client('ec2', region_name=region)
+
+        # Create volume from snapshot
+        volume_id = create_volume_from_snapshot(ec2, snapshot_id, az)
+        if not volume_id:
+            return {"status": "error", "message": "Failed to create volume from snapshot."}
+
+        # Identify root volume of target instance
+        root_volume_id, root_device_name = fetch_root_volume(ec2, target_instance_id)
+        if not root_volume_id:
+            return {"status": "error", "message": "Could not find root volume for target instance."}
+
+        # Stop instance
+        stop_instance(ec2, target_instance_id)
+        # Detach original root volume
+        detach_volume(ec2, root_volume_id, target_instance_id, root_device_name)
+        # Attach new volume as root
+        attach_volume(ec2, target_instance_id, volume_id, root_device_name)
+        # Start instance
+        start_instance(ec2, target_instance_id)
+
+        logger.info(f"✅ Restore complete. Instance {target_instance_id} now running with root volume {volume_id}.")
+        return {"status": "success", "message": f"Restore complete. Instance {target_instance_id} now running with root volume {volume_id}."}
+    except Exception as e:
+        logger.error(f"Restore failed: {e}")
+        return {"status": "error", "message": str(e)}

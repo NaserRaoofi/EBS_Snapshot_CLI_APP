@@ -332,3 +332,1507 @@ click.exceptions.Abort
 2025-06-15 12:44:58,520 [INFO] Deleting temp dir: /tmp/tmpisbt_t1k
 2025-06-15 12:44:58,521 [INFO] Flet app has started...
 2025-06-15 12:44:58,521 [INFO] Closing Flet web server...
+2025-06-16 08:05:08,611 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 08:05:09,511 [ERROR] ❌ No running EC2 instances found.
+2025-06-16 10:04:57,743 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:04:58,150 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:04:58,151 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:04:58,151 [INFO] Use color emoji: False
+2025-06-16 10:04:58,151 [INFO] Route URL strategy configured: path
+2025-06-16 10:04:58,187 [INFO] Starting up Flet App Manager
+2025-06-16 10:04:58,187 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:04:58,848 [INFO] Temp dir created for patched index and manifest: /tmp/tmpr3jdmmw0
+2025-06-16 10:04:58,849 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:04:58,849 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:04:58,850 [INFO] Assets dir: None
+2025-06-16 10:04:59,066 [INFO] New FletApp: DZKH282Z
+2025-06-16 10:04:59,076 [INFO] New session created (1 total): _a8svdnoQ5QD1yBxq_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:04:59,078 [INFO] Start session: a8svdnoQ5QD1yBxq
+2025-06-16 10:04:59,141 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:05:01,004 [INFO] New FletApp: szzQLdlH
+2025-06-16 10:05:01,048 [INFO] New session created (2 total): _4Il17ZbDhUDuzajp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:05:01,051 [INFO] Start session: 4Il17ZbDhUDuzajp
+2025-06-16 10:05:07,215 [INFO] Session disconnected: _4Il17ZbDhUDuzajp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:06:32,785 [INFO] Session disconnected: _a8svdnoQ5QD1yBxq_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:06:32,885 [INFO] Shutting down Flet App Manager
+2025-06-16 10:06:32,885 [INFO] Deleting temp dir: /tmp/tmpr3jdmmw0
+2025-06-16 10:06:32,886 [INFO] Flet app has started...
+2025-06-16 10:06:32,886 [INFO] Closing Flet web server...
+2025-06-16 10:06:36,060 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:06:36,405 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:06:36,406 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:06:36,406 [INFO] Use color emoji: False
+2025-06-16 10:06:36,406 [INFO] Route URL strategy configured: path
+2025-06-16 10:06:36,430 [INFO] Starting up Flet App Manager
+2025-06-16 10:06:36,430 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:06:37,016 [INFO] New FletApp: UUBjndu3
+2025-06-16 10:06:37,020 [INFO] New session created (1 total): _DCTvjbIXnFSs2WUp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:06:37,021 [INFO] Start session: DCTvjbIXnFSs2WUp
+2025-06-16 10:06:37,039 [INFO] Temp dir created for patched index and manifest: /tmp/tmp250p_8bg
+2025-06-16 10:06:37,040 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:06:37,040 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:06:37,040 [INFO] Assets dir: None
+2025-06-16 10:06:37,053 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:06:38,595 [INFO] New FletApp: FmZrByeL
+2025-06-16 10:06:38,625 [INFO] New session created (2 total): _9Y0tmMQRfpqLb2ub_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:06:38,626 [INFO] Start session: 9Y0tmMQRfpqLb2ub
+2025-06-16 10:06:50,466 [INFO] Session disconnected: _9Y0tmMQRfpqLb2ub_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:06:52,001 [INFO] New FletApp: zWX1QBTo
+2025-06-16 10:06:52,048 [INFO] Existing session requested: 9Y0tmMQRfpqLb2ub
+2025-06-16 10:06:52,049 [INFO] Session reconnected: _9Y0tmMQRfpqLb2ub_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:06:52,049 [INFO] Disposing FletApp: FmZrByeL
+2025-06-16 10:14:21,835 [INFO] Session disconnected: _9Y0tmMQRfpqLb2ub_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:14:21,836 [INFO] Session disconnected: _DCTvjbIXnFSs2WUp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:14:21,936 [INFO] Shutting down Flet App Manager
+2025-06-16 10:14:21,937 [INFO] Deleting temp dir: /tmp/tmp250p_8bg
+2025-06-16 10:14:21,938 [INFO] Flet app has started...
+2025-06-16 10:14:21,939 [INFO] Closing Flet web server...
+2025-06-16 10:15:45,574 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:15:45,903 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:15:45,904 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:15:45,904 [INFO] Use color emoji: False
+2025-06-16 10:15:45,904 [INFO] Route URL strategy configured: path
+2025-06-16 10:15:45,928 [INFO] Starting up Flet App Manager
+2025-06-16 10:15:45,928 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:15:46,540 [INFO] Temp dir created for patched index and manifest: /tmp/tmpgk4uoa1i
+2025-06-16 10:15:46,540 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:15:46,540 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:15:46,540 [INFO] Assets dir: None
+2025-06-16 10:16:05,116 [INFO] New FletApp: F7hwPfyH
+2025-06-16 10:16:05,149 [INFO] New session created (1 total): _YKyMmNwPCQ84hyE8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:16:05,154 [INFO] Start session: YKyMmNwPCQ84hyE8
+2025-06-16 10:16:05,173 [INFO] New FletApp: k9YGWQzk
+2025-06-16 10:16:05,209 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:16:05,255 [INFO] New session created (2 total): _RokaiZrZ3eCePeEL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:16:05,255 [INFO] Start session: RokaiZrZ3eCePeEL
+2025-06-16 10:18:36,493 [INFO] Session disconnected: _YKyMmNwPCQ84hyE8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:18:36,497 [INFO] Session disconnected: _RokaiZrZ3eCePeEL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:18:36,594 [INFO] Shutting down Flet App Manager
+2025-06-16 10:18:36,595 [INFO] Deleting temp dir: /tmp/tmpgk4uoa1i
+2025-06-16 10:18:36,596 [INFO] Flet app has started...
+2025-06-16 10:18:36,596 [INFO] Closing Flet web server...
+2025-06-16 10:18:39,479 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:18:39,903 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:18:39,904 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:18:39,904 [INFO] Use color emoji: False
+2025-06-16 10:18:39,904 [INFO] Route URL strategy configured: path
+2025-06-16 10:18:39,932 [INFO] Starting up Flet App Manager
+2025-06-16 10:18:39,932 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:18:40,602 [INFO] Temp dir created for patched index and manifest: /tmp/tmprzdneroo
+2025-06-16 10:18:40,602 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:18:40,603 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:18:40,603 [INFO] Assets dir: None
+2025-06-16 10:18:40,818 [INFO] New FletApp: V30KiElk
+2025-06-16 10:18:40,844 [INFO] New session created (1 total): _uxrIHcvqGpcqAyol_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:18:40,849 [INFO] Start session: uxrIHcvqGpcqAyol
+2025-06-16 10:18:40,865 [INFO] New FletApp: GLLHoF5C
+2025-06-16 10:18:40,897 [INFO] New session created (2 total): _bQdtBZ1hko0lZ8dp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:18:40,897 [INFO] Start session: bQdtBZ1hko0lZ8dp
+2025-06-16 10:18:40,927 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:18:40,970 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:18:42,307 [INFO] New FletApp: 2VTVTWU8
+2025-06-16 10:18:42,341 [INFO] New session created (3 total): _N9WZn8qSQTxAckgG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:18:42,343 [INFO] Start session: N9WZn8qSQTxAckgG
+2025-06-16 10:20:54,563 [INFO] Session disconnected: _N9WZn8qSQTxAckgG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:20:56,383 [INFO] New FletApp: WEKs9SQU
+2025-06-16 10:20:56,450 [INFO] Existing session requested: N9WZn8qSQTxAckgG
+2025-06-16 10:20:56,455 [INFO] Session reconnected: _N9WZn8qSQTxAckgG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:20:56,456 [INFO] Disposing FletApp: 2VTVTWU8
+2025-06-16 10:21:04,659 [INFO] Session disconnected: _N9WZn8qSQTxAckgG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:21:06,409 [INFO] New FletApp: FhUndLqD
+2025-06-16 10:21:06,459 [INFO] Existing session requested: N9WZn8qSQTxAckgG
+2025-06-16 10:21:06,460 [INFO] Session reconnected: _N9WZn8qSQTxAckgG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:21:06,462 [INFO] Disposing FletApp: WEKs9SQU
+2025-06-16 10:21:19,132 [INFO] Session disconnected: _bQdtBZ1hko0lZ8dp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:21:19,136 [INFO] Session disconnected: _uxrIHcvqGpcqAyol_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:21:19,140 [INFO] Session disconnected: _N9WZn8qSQTxAckgG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:21:19,230 [INFO] Shutting down Flet App Manager
+2025-06-16 10:21:19,231 [INFO] Deleting temp dir: /tmp/tmprzdneroo
+2025-06-16 10:21:19,233 [INFO] Flet app has started...
+2025-06-16 10:21:19,234 [INFO] Closing Flet web server...
+2025-06-16 10:23:29,053 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:23:29,442 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:23:29,443 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:23:29,443 [INFO] Use color emoji: False
+2025-06-16 10:23:29,443 [INFO] Route URL strategy configured: path
+2025-06-16 10:23:29,470 [INFO] Starting up Flet App Manager
+2025-06-16 10:23:29,471 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:23:30,195 [INFO] Temp dir created for patched index and manifest: /tmp/tmp0x_4b0gl
+2025-06-16 10:23:30,195 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:23:30,195 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:23:30,195 [INFO] Assets dir: None
+2025-06-16 10:24:06,304 [INFO] Shutting down Flet App Manager
+2025-06-16 10:24:06,304 [INFO] Deleting temp dir: /tmp/tmp0x_4b0gl
+2025-06-16 10:24:06,304 [INFO] Flet app has started...
+2025-06-16 10:24:06,305 [INFO] Closing Flet web server...
+2025-06-16 10:25:56,898 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:25:57,374 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:25:57,376 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:25:57,376 [INFO] Use color emoji: False
+2025-06-16 10:25:57,376 [INFO] Route URL strategy configured: path
+2025-06-16 10:25:57,414 [INFO] Starting up Flet App Manager
+2025-06-16 10:25:57,414 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:25:58,189 [INFO] Temp dir created for patched index and manifest: /tmp/tmprsc4j_xb
+2025-06-16 10:25:58,189 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:25:58,189 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:25:58,189 [INFO] Assets dir: None
+2025-06-16 10:26:28,832 [INFO] New FletApp: mpwsySpG
+2025-06-16 10:26:28,845 [INFO] New session created (1 total): _XX2T2FfW3GaItAH4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:26:28,846 [INFO] Start session: XX2T2FfW3GaItAH4
+2025-06-16 10:26:28,904 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:27:19,298 [INFO] Session disconnected: _XX2T2FfW3GaItAH4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:27:19,397 [INFO] Shutting down Flet App Manager
+2025-06-16 10:27:19,397 [INFO] Deleting temp dir: /tmp/tmprsc4j_xb
+2025-06-16 10:27:19,399 [INFO] Flet app has started...
+2025-06-16 10:27:19,399 [INFO] Closing Flet web server...
+2025-06-16 10:27:22,435 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:27:23,009 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:27:23,011 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:27:23,011 [INFO] Use color emoji: False
+2025-06-16 10:27:23,011 [INFO] Route URL strategy configured: path
+2025-06-16 10:27:23,091 [INFO] Starting up Flet App Manager
+2025-06-16 10:27:23,093 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:27:23,624 [INFO] New FletApp: nNwOhmDc
+2025-06-16 10:27:23,632 [INFO] New session created (1 total): _TEW678Q16fjrdKui_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:27:23,633 [INFO] Start session: TEW678Q16fjrdKui
+2025-06-16 10:27:23,668 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:27:24,044 [INFO] Temp dir created for patched index and manifest: /tmp/tmp0dttxbv8
+2025-06-16 10:27:24,044 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:27:24,045 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:27:24,045 [INFO] Assets dir: None
+2025-06-16 10:27:25,555 [INFO] New FletApp: 7Gc23CxQ
+2025-06-16 10:27:25,603 [INFO] New session created (2 total): _9QQXIBAkGdAKqxlA_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:27:25,604 [INFO] Start session: 9QQXIBAkGdAKqxlA
+2025-06-16 10:28:39,945 [INFO] Session disconnected: _TEW678Q16fjrdKui_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:28:39,946 [INFO] Session disconnected: _9QQXIBAkGdAKqxlA_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:28:40,044 [INFO] Shutting down Flet App Manager
+2025-06-16 10:28:40,046 [INFO] Deleting temp dir: /tmp/tmp0dttxbv8
+2025-06-16 10:28:40,048 [INFO] Flet app has started...
+2025-06-16 10:28:40,049 [INFO] Closing Flet web server...
+2025-06-16 10:30:49,597 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:30:49,932 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:30:49,933 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:30:49,933 [INFO] Use color emoji: False
+2025-06-16 10:30:49,933 [INFO] Route URL strategy configured: path
+2025-06-16 10:30:49,960 [INFO] Starting up Flet App Manager
+2025-06-16 10:30:49,960 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:30:50,672 [INFO] Temp dir created for patched index and manifest: /tmp/tmpa5lvw_yk
+2025-06-16 10:30:50,672 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:30:50,673 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:30:50,673 [INFO] Assets dir: None
+2025-06-16 10:30:52,181 [INFO] New FletApp: HrMUVcJ8
+2025-06-16 10:30:52,214 [INFO] New session created (1 total): _OcRxVUbYFV2wYebt_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:30:52,216 [INFO] Start session: OcRxVUbYFV2wYebt
+2025-06-16 10:30:52,241 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:48:53,733 [INFO] Session disconnected: _OcRxVUbYFV2wYebt_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:48:53,834 [INFO] Shutting down Flet App Manager
+2025-06-16 10:48:53,835 [INFO] Deleting temp dir: /tmp/tmpa5lvw_yk
+2025-06-16 10:48:53,837 [INFO] Flet app has started...
+2025-06-16 10:48:53,838 [INFO] Closing Flet web server...
+2025-06-16 10:48:56,655 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:48:57,011 [INFO] Starting Flet web server on port 8550...
+2025-06-16 10:48:57,012 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 10:48:57,012 [INFO] Use color emoji: False
+2025-06-16 10:48:57,012 [INFO] Route URL strategy configured: path
+2025-06-16 10:48:57,039 [INFO] Starting up Flet App Manager
+2025-06-16 10:48:57,039 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 10:48:57,623 [INFO] Temp dir created for patched index and manifest: /tmp/tmptay8_swk
+2025-06-16 10:48:57,624 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 10:48:57,624 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 10:48:57,624 [INFO] Assets dir: None
+2025-06-16 10:48:58,697 [INFO] New FletApp: tdG3KNyQ
+2025-06-16 10:48:58,820 [INFO] New session created (1 total): _iUwrTINwnigyMIRR_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:48:58,824 [INFO] Start session: iUwrTINwnigyMIRR
+2025-06-16 10:48:58,856 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 10:48:59,113 [INFO] New FletApp: fWfnZ8A3
+2025-06-16 10:48:59,150 [INFO] New session created (2 total): _EyXywkePtVFHknGK_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 10:48:59,152 [INFO] Start session: EyXywkePtVFHknGK
+2025-06-16 11:01:35,375 [INFO] Session disconnected: _EyXywkePtVFHknGK_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:01:35,380 [INFO] Session disconnected: _iUwrTINwnigyMIRR_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:01:35,473 [INFO] Shutting down Flet App Manager
+2025-06-16 11:01:35,474 [INFO] Deleting temp dir: /tmp/tmptay8_swk
+2025-06-16 11:01:35,475 [INFO] Flet app has started...
+2025-06-16 11:01:35,476 [INFO] Closing Flet web server...
+2025-06-16 11:03:18,689 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:03:19,034 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:03:19,036 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:03:19,036 [INFO] Use color emoji: False
+2025-06-16 11:03:19,036 [INFO] Route URL strategy configured: path
+2025-06-16 11:03:19,064 [INFO] Starting up Flet App Manager
+2025-06-16 11:03:19,064 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:03:19,667 [INFO] Temp dir created for patched index and manifest: /tmp/tmpxj3hufg8
+2025-06-16 11:03:19,668 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:03:19,668 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:03:19,669 [INFO] Assets dir: None
+2025-06-16 11:03:21,384 [INFO] New FletApp: QtVUAuh9
+2025-06-16 11:03:21,414 [INFO] New session created (1 total): _0EjGOGlVWbRHzeoI_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:03:21,414 [INFO] Start session: 0EjGOGlVWbRHzeoI
+2025-06-16 11:03:21,439 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:05:51,654 [INFO] Session disconnected: _0EjGOGlVWbRHzeoI_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:05:51,755 [INFO] Shutting down Flet App Manager
+2025-06-16 11:05:51,755 [INFO] Deleting temp dir: /tmp/tmpxj3hufg8
+2025-06-16 11:05:51,756 [INFO] Flet app has started...
+2025-06-16 11:05:51,756 [INFO] Closing Flet web server...
+2025-06-16 11:06:22,357 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:06:22,705 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:06:22,706 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:06:22,706 [INFO] Use color emoji: False
+2025-06-16 11:06:22,707 [INFO] Route URL strategy configured: path
+2025-06-16 11:06:22,733 [INFO] Starting up Flet App Manager
+2025-06-16 11:06:22,733 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:06:23,109 [INFO] New FletApp: JUND7W34
+2025-06-16 11:06:23,115 [INFO] New session created (1 total): _1VkbZwIFQ0Z4s8A9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:06:23,115 [INFO] Start session: 1VkbZwIFQ0Z4s8A9
+2025-06-16 11:06:23,137 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:06:23,426 [INFO] Temp dir created for patched index and manifest: /tmp/tmpeu6pfaih
+2025-06-16 11:06:23,426 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:06:23,426 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:06:23,426 [INFO] Assets dir: None
+2025-06-16 11:06:25,031 [INFO] New FletApp: 3RqOPwvw
+2025-06-16 11:06:25,178 [INFO] New session created (2 total): _lclyxtU6RnAOSqYM_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:06:25,180 [INFO] Start session: lclyxtU6RnAOSqYM
+2025-06-16 11:06:45,549 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-00f3790a4cafff7aa' does not exist
+2025-06-16 11:06:51,779 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-00f3790a4cafff7aa' does not exist
+2025-06-16 11:06:57,438 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-00f3790a4cafff7aa' does not exist
+2025-06-16 11:07:14,484 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-09c6489e4419a1882' does not exist
+2025-06-16 11:08:02,587 [INFO] Session disconnected: _1VkbZwIFQ0Z4s8A9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:08:02,591 [INFO] Session disconnected: _lclyxtU6RnAOSqYM_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:08:02,688 [INFO] Shutting down Flet App Manager
+2025-06-16 11:08:02,689 [INFO] Deleting temp dir: /tmp/tmpeu6pfaih
+2025-06-16 11:08:02,700 [INFO] Flet app has started...
+2025-06-16 11:08:02,700 [INFO] Closing Flet web server...
+2025-06-16 11:09:26,797 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:09:27,142 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:09:27,143 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:09:27,143 [INFO] Use color emoji: False
+2025-06-16 11:09:27,143 [INFO] Route URL strategy configured: path
+2025-06-16 11:09:27,169 [INFO] Starting up Flet App Manager
+2025-06-16 11:09:27,170 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:09:27,781 [INFO] Temp dir created for patched index and manifest: /tmp/tmp28vh0o8s
+2025-06-16 11:09:27,781 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:09:27,782 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:09:27,782 [INFO] Assets dir: None
+2025-06-16 11:09:29,286 [INFO] New FletApp: q07FZVGt
+2025-06-16 11:09:29,328 [INFO] New session created (1 total): _7jAAc9C5pFvUpxWv_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:09:29,330 [INFO] Start session: 7jAAc9C5pFvUpxWv
+2025-06-16 11:09:29,375 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:09:39,451 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-00f3790a4cafff7aa' does not exist
+2025-06-16 11:09:39,964 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-00f3790a4cafff7aa' does not exist
+2025-06-16 11:09:51,597 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-09c6489e4419a1882' does not exist
+2025-06-16 11:09:52,074 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-09c6489e4419a1882' does not exist
+2025-06-16 11:09:57,080 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-09c6489e4419a1882' does not exist
+2025-06-16 11:09:57,427 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-09c6489e4419a1882' does not exist
+2025-06-16 11:09:59,185 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-00f3790a4cafff7aa' does not exist
+2025-06-16 11:09:59,563 [ERROR] Error retrieving root volume ID: An error occurred (InvalidInstanceID.NotFound) when calling the DescribeInstances operation: The instance ID 'i-00f3790a4cafff7aa' does not exist
+2025-06-16 11:10:37,139 [INFO] Session disconnected: _7jAAc9C5pFvUpxWv_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:10:37,239 [INFO] Shutting down Flet App Manager
+2025-06-16 11:10:37,239 [INFO] Deleting temp dir: /tmp/tmp28vh0o8s
+2025-06-16 11:10:37,241 [INFO] Flet app has started...
+2025-06-16 11:10:37,242 [INFO] Closing Flet web server...
+2025-06-16 11:12:14,036 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:12:14,524 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:12:14,526 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:12:14,526 [INFO] Use color emoji: False
+2025-06-16 11:12:14,526 [INFO] Route URL strategy configured: path
+2025-06-16 11:12:14,573 [INFO] Starting up Flet App Manager
+2025-06-16 11:12:14,574 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:12:15,296 [INFO] Temp dir created for patched index and manifest: /tmp/tmpccrboqbp
+2025-06-16 11:12:15,297 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:12:15,297 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:12:15,297 [INFO] Assets dir: None
+2025-06-16 11:12:41,012 [INFO] New FletApp: mkuGxIXO
+2025-06-16 11:12:41,037 [INFO] New session created (1 total): _SCqz0E5sXPoYb6lm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:12:41,044 [INFO] Start session: SCqz0E5sXPoYb6lm
+2025-06-16 11:12:41,126 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:12:50,736 [INFO] 📸 Snapshot created: snap-02eafa6463185631e
+2025-06-16 11:13:16,790 [INFO] 📸 Snapshot created: snap-037c88e374e5fd389
+2025-06-16 11:20:03,721 [INFO] Session disconnected: _SCqz0E5sXPoYb6lm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:20:03,821 [INFO] Shutting down Flet App Manager
+2025-06-16 11:20:03,822 [INFO] Deleting temp dir: /tmp/tmpccrboqbp
+2025-06-16 11:20:03,824 [INFO] Flet app has started...
+2025-06-16 11:20:03,825 [INFO] Closing Flet web server...
+2025-06-16 11:20:06,843 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:20:07,444 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:20:07,445 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:20:07,445 [INFO] Use color emoji: False
+2025-06-16 11:20:07,445 [INFO] Route URL strategy configured: path
+2025-06-16 11:20:07,475 [INFO] Starting up Flet App Manager
+2025-06-16 11:20:07,476 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:20:08,292 [INFO] Temp dir created for patched index and manifest: /tmp/tmp7_291j8z
+2025-06-16 11:20:08,292 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:20:08,293 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:20:08,293 [INFO] Assets dir: None
+2025-06-16 11:20:08,330 [INFO] New FletApp: 9FI6lWLX
+2025-06-16 11:20:08,344 [INFO] New session created (1 total): _OP1042uyPghuAzTj_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:20:08,345 [INFO] Start session: OP1042uyPghuAzTj
+2025-06-16 11:20:08,380 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:20:10,321 [INFO] New FletApp: xar9VJyP
+2025-06-16 11:20:10,365 [INFO] New session created (2 total): _40GFAPb0Kknqp1XO_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:20:10,366 [INFO] Start session: 40GFAPb0Kknqp1XO
+2025-06-16 11:21:38,268 [INFO] Session disconnected: _40GFAPb0Kknqp1XO_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:21:38,269 [INFO] Session disconnected: _OP1042uyPghuAzTj_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:21:38,369 [INFO] Shutting down Flet App Manager
+2025-06-16 11:21:38,370 [INFO] Deleting temp dir: /tmp/tmp7_291j8z
+2025-06-16 11:21:38,372 [INFO] Flet app has started...
+2025-06-16 11:21:38,375 [INFO] Closing Flet web server...
+2025-06-16 11:22:08,171 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:22:08,589 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:22:08,590 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:22:08,590 [INFO] Use color emoji: False
+2025-06-16 11:22:08,590 [INFO] Route URL strategy configured: path
+2025-06-16 11:22:08,619 [INFO] Starting up Flet App Manager
+2025-06-16 11:22:08,619 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:22:09,327 [INFO] Temp dir created for patched index and manifest: /tmp/tmptvt4x18p
+2025-06-16 11:22:09,328 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:22:09,329 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:22:09,329 [INFO] Assets dir: None
+2025-06-16 11:22:16,926 [INFO] New FletApp: BstMn6Dd
+2025-06-16 11:22:16,941 [INFO] New FletApp: 6beGhsvi
+2025-06-16 11:22:16,949 [INFO] New session created (1 total): _mrDlc1GDWYQHuSwV_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:22:16,951 [INFO] Start session: mrDlc1GDWYQHuSwV
+2025-06-16 11:22:16,973 [INFO] New FletApp: VMDroHXX
+2025-06-16 11:22:16,994 [INFO] New session created (2 total): _rmGe4wiCUDwg00dx_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:22:16,994 [INFO] Start session: rmGe4wiCUDwg00dx
+2025-06-16 11:22:17,031 [INFO] New session created (3 total): _4GLI8WotzLv8cTfT_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:22:17,032 [INFO] Start session: 4GLI8WotzLv8cTfT
+2025-06-16 11:22:17,041 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:22:17,042 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:22:17,044 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:22:18,016 [INFO] Session disconnected: _mrDlc1GDWYQHuSwV_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:22:18,748 [INFO] Session disconnected: _rmGe4wiCUDwg00dx_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:22:29,677 [INFO] Session disconnected: _4GLI8WotzLv8cTfT_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:22:29,779 [INFO] Shutting down Flet App Manager
+2025-06-16 11:22:29,779 [INFO] Deleting temp dir: /tmp/tmptvt4x18p
+2025-06-16 11:22:29,780 [INFO] Flet app has started...
+2025-06-16 11:22:29,780 [INFO] Closing Flet web server...
+2025-06-16 11:24:51,099 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:24:51,455 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:24:51,456 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:24:51,456 [INFO] Use color emoji: False
+2025-06-16 11:24:51,456 [INFO] Route URL strategy configured: path
+2025-06-16 11:24:51,484 [INFO] Starting up Flet App Manager
+2025-06-16 11:24:51,484 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:24:52,056 [INFO] Temp dir created for patched index and manifest: /tmp/tmppr4t9016
+2025-06-16 11:24:52,056 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:24:52,056 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:24:52,057 [INFO] Assets dir: None
+2025-06-16 11:24:53,638 [INFO] New FletApp: pwQ12gOo
+2025-06-16 11:24:53,677 [INFO] New session created (1 total): _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:24:53,678 [INFO] Start session: ghe152s64EFVobI2
+2025-06-16 11:24:53,719 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:25:32,290 [INFO] Session disconnected: _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:25:34,002 [INFO] New FletApp: sDFxAGee
+2025-06-16 11:25:34,051 [INFO] Existing session requested: ghe152s64EFVobI2
+2025-06-16 11:25:34,052 [INFO] Session reconnected: _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:25:34,052 [INFO] Disposing FletApp: pwQ12gOo
+2025-06-16 11:25:41,663 [INFO] Session disconnected: _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:25:43,346 [INFO] New FletApp: r5ZhurcX
+2025-06-16 11:25:43,391 [INFO] Existing session requested: ghe152s64EFVobI2
+2025-06-16 11:25:43,394 [INFO] Session reconnected: _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:25:43,395 [INFO] Disposing FletApp: sDFxAGee
+2025-06-16 11:27:40,393 [INFO] Session disconnected: _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:27:42,386 [INFO] New FletApp: uys6oLKc
+2025-06-16 11:27:42,433 [INFO] Existing session requested: ghe152s64EFVobI2
+2025-06-16 11:27:42,434 [INFO] Session reconnected: _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:27:42,435 [INFO] Disposing FletApp: r5ZhurcX
+2025-06-16 11:27:47,766 [INFO] Session disconnected: _ghe152s64EFVobI2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:27:47,866 [INFO] Shutting down Flet App Manager
+2025-06-16 11:27:47,867 [INFO] Deleting temp dir: /tmp/tmppr4t9016
+2025-06-16 11:27:47,868 [INFO] Flet app has started...
+2025-06-16 11:27:47,868 [INFO] Closing Flet web server...
+2025-06-16 11:27:50,621 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:27:51,050 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:27:51,052 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:27:51,052 [INFO] Use color emoji: False
+2025-06-16 11:27:51,052 [INFO] Route URL strategy configured: path
+2025-06-16 11:27:51,092 [INFO] Starting up Flet App Manager
+2025-06-16 11:27:51,092 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:27:52,705 [INFO] New FletApp: gLExd0OG
+2025-06-16 11:27:52,708 [INFO] New session created (1 total): _B1gTXWWP8SsAorIv_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:27:52,709 [INFO] Start session: B1gTXWWP8SsAorIv
+2025-06-16 11:27:52,733 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:27:52,960 [INFO] Temp dir created for patched index and manifest: /tmp/tmp3buroqb6
+2025-06-16 11:27:52,961 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:27:52,966 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:27:52,971 [INFO] Assets dir: None
+2025-06-16 11:27:53,419 [INFO] New FletApp: oHsi0F26
+2025-06-16 11:27:53,468 [INFO] New session created (2 total): _OWuETT4n1ePeFzci_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:27:53,468 [INFO] Start session: OWuETT4n1ePeFzci
+2025-06-16 11:28:10,297 [INFO] 📸 Snapshot created: snap-0d2f7fee6536feb11
+2025-06-16 11:31:28,281 [INFO] Session disconnected: _B1gTXWWP8SsAorIv_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:38:32,911 [INFO] Session disconnected: _OWuETT4n1ePeFzci_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:38:33,012 [INFO] Shutting down Flet App Manager
+2025-06-16 11:38:33,012 [INFO] Deleting temp dir: /tmp/tmp3buroqb6
+2025-06-16 11:38:33,013 [INFO] Flet app has started...
+2025-06-16 11:38:33,014 [INFO] Closing Flet web server...
+2025-06-16 11:38:36,141 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:38:36,569 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:38:36,570 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:38:36,570 [INFO] Use color emoji: False
+2025-06-16 11:38:36,570 [INFO] Route URL strategy configured: path
+2025-06-16 11:38:36,601 [INFO] Starting up Flet App Manager
+2025-06-16 11:38:36,602 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:38:37,316 [INFO] Temp dir created for patched index and manifest: /tmp/tmpa97jy367
+2025-06-16 11:38:37,316 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:38:37,317 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:38:37,317 [INFO] Assets dir: None
+2025-06-16 11:38:37,944 [INFO] New FletApp: LxeKTGGR
+2025-06-16 11:38:37,948 [INFO] New session created (1 total): _RSWAsSdDfocanbdB_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:38:37,948 [INFO] Start session: RSWAsSdDfocanbdB
+2025-06-16 11:38:37,967 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:38:39,096 [INFO] New FletApp: suhT8LNz
+2025-06-16 11:38:39,149 [INFO] New session created (2 total): _AwHsZNGbMFpuBjDN_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:38:39,149 [INFO] Start session: AwHsZNGbMFpuBjDN
+2025-06-16 11:46:57,180 [INFO] Session disconnected: _RSWAsSdDfocanbdB_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:46:57,184 [INFO] Session disconnected: _AwHsZNGbMFpuBjDN_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:46:57,278 [INFO] Shutting down Flet App Manager
+2025-06-16 11:46:57,278 [INFO] Deleting temp dir: /tmp/tmpa97jy367
+2025-06-16 11:46:57,280 [INFO] Flet app has started...
+2025-06-16 11:46:57,280 [INFO] Closing Flet web server...
+2025-06-16 11:47:01,166 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:47:01,570 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:47:01,571 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:47:01,571 [INFO] Use color emoji: False
+2025-06-16 11:47:01,571 [INFO] Route URL strategy configured: path
+2025-06-16 11:47:01,599 [INFO] Starting up Flet App Manager
+2025-06-16 11:47:01,599 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:47:02,285 [INFO] Temp dir created for patched index and manifest: /tmp/tmp8x1y396q
+2025-06-16 11:47:02,286 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:47:02,286 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:47:02,287 [INFO] Assets dir: None
+2025-06-16 11:47:04,135 [INFO] New FletApp: 9hJpXXuP
+2025-06-16 11:47:04,140 [INFO] New session created (1 total): _MfxuSLoK5CC96hwm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:47:04,140 [INFO] Start session: MfxuSLoK5CC96hwm
+2025-06-16 11:47:04,146 [INFO] New FletApp: jBRMFtBx
+2025-06-16 11:47:04,168 [INFO] New session created (2 total): _ztC3exTrMa8GKyGI_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:47:04,179 [INFO] Start session: ztC3exTrMa8GKyGI
+2025-06-16 11:47:04,181 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:47:04,183 [INFO] New FletApp: TsfAvvqF
+2025-06-16 11:47:04,183 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:47:04,241 [INFO] New session created (3 total): _j7bDCWDkDWGX9dYD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:47:04,245 [INFO] Start session: j7bDCWDkDWGX9dYD
+2025-06-16 11:47:18,818 [INFO] 📸 Snapshot created: snap-01e13488ebca4d802
+2025-06-16 11:47:28,124 [INFO] Session disconnected: _j7bDCWDkDWGX9dYD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:47:29,804 [INFO] New FletApp: TYfY7exE
+2025-06-16 11:47:29,846 [INFO] Existing session requested: j7bDCWDkDWGX9dYD
+2025-06-16 11:47:29,847 [INFO] Session reconnected: _j7bDCWDkDWGX9dYD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:47:29,847 [INFO] Disposing FletApp: TsfAvvqF
+2025-06-16 11:48:58,569 [INFO] Session disconnected: _j7bDCWDkDWGX9dYD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:49:00,181 [INFO] New FletApp: pONqSJxq
+2025-06-16 11:49:00,222 [INFO] Existing session requested: j7bDCWDkDWGX9dYD
+2025-06-16 11:49:00,224 [INFO] Session reconnected: _j7bDCWDkDWGX9dYD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:49:00,224 [INFO] Disposing FletApp: TYfY7exE
+2025-06-16 11:52:25,713 [INFO] Session disconnected: _MfxuSLoK5CC96hwm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:25,714 [INFO] Session disconnected: _ztC3exTrMa8GKyGI_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:25,714 [INFO] Session disconnected: _j7bDCWDkDWGX9dYD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:25,812 [INFO] Shutting down Flet App Manager
+2025-06-16 11:52:25,813 [INFO] Deleting temp dir: /tmp/tmp8x1y396q
+2025-06-16 11:52:25,813 [INFO] Flet app has started...
+2025-06-16 11:52:25,813 [INFO] Closing Flet web server...
+2025-06-16 11:52:31,124 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:52:31,474 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:52:31,476 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:52:31,476 [INFO] Use color emoji: False
+2025-06-16 11:52:31,476 [INFO] Route URL strategy configured: path
+2025-06-16 11:52:31,503 [INFO] Starting up Flet App Manager
+2025-06-16 11:52:31,504 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:52:32,168 [INFO] Temp dir created for patched index and manifest: /tmp/tmpxxhp6ea2
+2025-06-16 11:52:32,169 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:52:32,169 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:52:32,169 [INFO] Assets dir: None
+2025-06-16 11:52:35,241 [INFO] New FletApp: OKxXlnc2
+2025-06-16 11:52:35,246 [INFO] New session created (1 total): _pzg8jCRCuo74N2Yz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:35,247 [INFO] Start session: pzg8jCRCuo74N2Yz
+2025-06-16 11:52:35,268 [INFO] New FletApp: k9LDA6SV
+2025-06-16 11:52:35,278 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:52:35,279 [INFO] New session created (2 total): _w8Jzx72ptT9vqu9A_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:35,282 [INFO] Start session: w8Jzx72ptT9vqu9A
+2025-06-16 11:52:35,320 [INFO] New FletApp: ryVDMzII
+2025-06-16 11:52:35,358 [INFO] New session created (3 total): _SFbJWnyM9bcRY4mc_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:35,359 [INFO] Start session: SFbJWnyM9bcRY4mc
+2025-06-16 11:52:35,363 [INFO] New FletApp: 2TEA4ANy
+2025-06-16 11:52:35,375 [INFO] New session created (4 total): _wZCYmAYOv7epqe0J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:35,376 [INFO] Start session: wZCYmAYOv7epqe0J
+2025-06-16 11:52:45,586 [INFO] Session disconnected: _wZCYmAYOv7epqe0J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:47,123 [INFO] New FletApp: 6gOeT3BI
+2025-06-16 11:52:47,163 [INFO] Existing session requested: wZCYmAYOv7epqe0J
+2025-06-16 11:52:47,164 [INFO] Session reconnected: _wZCYmAYOv7epqe0J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:52:47,164 [INFO] Disposing FletApp: 2TEA4ANy
+2025-06-16 11:52:55,207 [INFO] 📸 Snapshot created: snap-0297e39fee884130f
+2025-06-16 11:52:59,092 [INFO] Session disconnected: _wZCYmAYOv7epqe0J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:53:00,546 [INFO] New FletApp: 7Ci2WKIV
+2025-06-16 11:53:00,594 [INFO] Existing session requested: wZCYmAYOv7epqe0J
+2025-06-16 11:53:00,595 [INFO] Session reconnected: _wZCYmAYOv7epqe0J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:53:00,595 [INFO] Disposing FletApp: 6gOeT3BI
+2025-06-16 11:59:00,386 [INFO] Session disconnected: _w8Jzx72ptT9vqu9A_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:00,392 [INFO] Session disconnected: _pzg8jCRCuo74N2Yz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:00,394 [INFO] Session disconnected: _SFbJWnyM9bcRY4mc_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:00,402 [INFO] Session disconnected: _wZCYmAYOv7epqe0J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:00,485 [INFO] Shutting down Flet App Manager
+2025-06-16 11:59:00,489 [INFO] Deleting temp dir: /tmp/tmpxxhp6ea2
+2025-06-16 11:59:00,494 [INFO] Flet app has started...
+2025-06-16 11:59:00,495 [INFO] Closing Flet web server...
+2025-06-16 11:59:03,427 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:59:03,786 [INFO] Starting Flet web server on port 8550...
+2025-06-16 11:59:03,787 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 11:59:03,787 [INFO] Use color emoji: False
+2025-06-16 11:59:03,787 [INFO] Route URL strategy configured: path
+2025-06-16 11:59:03,814 [INFO] Starting up Flet App Manager
+2025-06-16 11:59:03,814 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 11:59:04,248 [INFO] New FletApp: 9sBhvkof
+2025-06-16 11:59:04,252 [INFO] New session created (1 total): _B7hBXrpdyi6baeJV_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:04,253 [INFO] Start session: B7hBXrpdyi6baeJV
+2025-06-16 11:59:04,264 [INFO] New FletApp: 3EYlNrGt
+2025-06-16 11:59:04,271 [INFO] New session created (2 total): _cAtAa8Px67g1A3hQ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:04,271 [INFO] Start session: cAtAa8Px67g1A3hQ
+2025-06-16 11:59:04,276 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:59:04,280 [INFO] New FletApp: 4ICoqQOx
+2025-06-16 11:59:04,280 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 11:59:04,330 [INFO] New session created (3 total): _KedqzHDjmeUcFNO6_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:04,365 [INFO] Start session: KedqzHDjmeUcFNO6
+2025-06-16 11:59:04,368 [INFO] New FletApp: KEIm4XES
+2025-06-16 11:59:04,387 [INFO] New session created (4 total): _a4ObOAAeHCm485Kp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:04,395 [INFO] Start session: a4ObOAAeHCm485Kp
+2025-06-16 11:59:04,678 [INFO] Temp dir created for patched index and manifest: /tmp/tmpdw67oj1z
+2025-06-16 11:59:04,679 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 11:59:04,679 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 11:59:04,680 [INFO] Assets dir: None
+2025-06-16 11:59:06,331 [INFO] New FletApp: csnTbrJa
+2025-06-16 11:59:06,390 [INFO] New session created (5 total): _qhSNlO5nfRh5pCIg_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 11:59:06,391 [INFO] Start session: qhSNlO5nfRh5pCIg
+2025-06-16 12:04:04,802 [INFO] Session disconnected: _B7hBXrpdyi6baeJV_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:04,802 [INFO] Session disconnected: _KedqzHDjmeUcFNO6_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:04,803 [INFO] Session disconnected: _cAtAa8Px67g1A3hQ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:04,803 [INFO] Session disconnected: _a4ObOAAeHCm485Kp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:04,804 [INFO] Session disconnected: _qhSNlO5nfRh5pCIg_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:04,901 [INFO] Shutting down Flet App Manager
+2025-06-16 12:04:04,901 [INFO] Deleting temp dir: /tmp/tmpdw67oj1z
+2025-06-16 12:04:04,902 [INFO] Flet app has started...
+2025-06-16 12:04:04,902 [INFO] Closing Flet web server...
+2025-06-16 12:04:08,903 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:04:09,346 [INFO] Starting Flet web server on port 8550...
+2025-06-16 12:04:09,347 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 12:04:09,347 [INFO] Use color emoji: False
+2025-06-16 12:04:09,347 [INFO] Route URL strategy configured: path
+2025-06-16 12:04:09,378 [INFO] Starting up Flet App Manager
+2025-06-16 12:04:09,378 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 12:04:10,115 [INFO] Temp dir created for patched index and manifest: /tmp/tmp0_j6s8nx
+2025-06-16 12:04:10,116 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 12:04:10,116 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:04:10,116 [INFO] Assets dir: None
+2025-06-16 12:04:12,230 [INFO] New FletApp: Zn5t1xYA
+2025-06-16 12:04:12,237 [INFO] New session created (1 total): _8UDLz7oRdZj5PdBz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:12,239 [INFO] Start session: 8UDLz7oRdZj5PdBz
+2025-06-16 12:04:12,256 [INFO] New FletApp: jhp5lgBp
+2025-06-16 12:04:12,262 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:04:12,263 [INFO] New session created (2 total): _XBe7Z48WObw2xk3G_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:12,295 [INFO] Start session: XBe7Z48WObw2xk3G
+2025-06-16 12:04:12,296 [INFO] New FletApp: N7iIdzWJ
+2025-06-16 12:04:12,311 [INFO] New session created (3 total): _lB7Q92O2BVPqRr3P_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:12,312 [INFO] Start session: lB7Q92O2BVPqRr3P
+2025-06-16 12:04:12,317 [INFO] New FletApp: WEyduz0v
+2025-06-16 12:04:12,331 [INFO] New session created (4 total): _kZRkybLvPSCXa1Wm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:12,333 [INFO] New FletApp: jVViWqYU
+2025-06-16 12:04:12,336 [INFO] Start session: kZRkybLvPSCXa1Wm
+2025-06-16 12:04:12,351 [INFO] New session created (5 total): _q8OesoRYPvDJpUlu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:12,353 [INFO] Start session: q8OesoRYPvDJpUlu
+2025-06-16 12:04:12,357 [INFO] New FletApp: jUU3JiK7
+2025-06-16 12:04:12,365 [INFO] New session created (6 total): _HrHvOrR47c2bO5qj_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:04:12,365 [INFO] Start session: HrHvOrR47c2bO5qj
+2025-06-16 12:08:41,691 [INFO] Session disconnected: _XBe7Z48WObw2xk3G_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:41,694 [INFO] Session disconnected: _kZRkybLvPSCXa1Wm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:41,697 [INFO] Session disconnected: _q8OesoRYPvDJpUlu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:41,700 [INFO] Session disconnected: _lB7Q92O2BVPqRr3P_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:41,702 [INFO] Session disconnected: _8UDLz7oRdZj5PdBz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:41,704 [INFO] Session disconnected: _HrHvOrR47c2bO5qj_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:41,792 [INFO] Shutting down Flet App Manager
+2025-06-16 12:08:41,794 [INFO] Deleting temp dir: /tmp/tmp0_j6s8nx
+2025-06-16 12:08:41,797 [INFO] Flet app has started...
+2025-06-16 12:08:41,797 [INFO] Closing Flet web server...
+2025-06-16 12:08:44,625 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:08:45,265 [INFO] Starting Flet web server on port 8550...
+2025-06-16 12:08:45,269 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 12:08:45,272 [INFO] Use color emoji: False
+2025-06-16 12:08:45,273 [INFO] Route URL strategy configured: path
+2025-06-16 12:08:45,313 [INFO] Starting up Flet App Manager
+2025-06-16 12:08:45,314 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 12:08:46,025 [INFO] Temp dir created for patched index and manifest: /tmp/tmpg9ihfc_9
+2025-06-16 12:08:46,025 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 12:08:46,025 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:08:46,025 [INFO] Assets dir: None
+2025-06-16 12:08:47,466 [INFO] New FletApp: F86dmAdT
+2025-06-16 12:08:47,476 [INFO] New FletApp: LdUbpDKY
+2025-06-16 12:08:47,483 [INFO] New FletApp: H3qTq9cV
+2025-06-16 12:08:47,487 [INFO] New session created (1 total): _Resm8FZET9ePBvbZ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:47,487 [INFO] Start session: Resm8FZET9ePBvbZ
+2025-06-16 12:08:47,503 [INFO] New session created (2 total): _cmHZVieRYPKp565e_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:47,510 [INFO] Start session: cmHZVieRYPKp565e
+2025-06-16 12:08:47,518 [INFO] New session created (3 total): _3A3NRBjZCIShTcxY_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:47,522 [INFO] Start session: 3A3NRBjZCIShTcxY
+2025-06-16 12:08:47,542 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:08:47,548 [INFO] New FletApp: ZIbT4xdf
+2025-06-16 12:08:47,554 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:08:47,607 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:08:47,759 [INFO] New session created (4 total): _zG9JkI1XETfGUlWK_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:47,768 [INFO] Start session: zG9JkI1XETfGUlWK
+2025-06-16 12:08:47,792 [INFO] New FletApp: vh5Jqvj9
+2025-06-16 12:08:47,810 [INFO] New session created (5 total): _5Fq61Ndcdt7cXUs1_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:47,813 [INFO] Start session: 5Fq61Ndcdt7cXUs1
+2025-06-16 12:08:47,832 [INFO] New FletApp: fRmvaxGt
+2025-06-16 12:08:47,847 [INFO] New FletApp: yoRCmj2r
+2025-06-16 12:08:47,880 [INFO] New session created (6 total): _wdsCVBMLGXqaNuj9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:47,899 [INFO] Start session: wdsCVBMLGXqaNuj9
+2025-06-16 12:08:48,061 [INFO] New session created (7 total): _6qtMDBjvWx3mfoOL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:08:48,210 [INFO] Start session: 6qtMDBjvWx3mfoOL
+2025-06-16 12:09:08,345 [INFO] Session disconnected: _6qtMDBjvWx3mfoOL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:09:09,961 [INFO] New FletApp: 4Wyeeik5
+2025-06-16 12:09:10,024 [INFO] Existing session requested: 6qtMDBjvWx3mfoOL
+2025-06-16 12:09:10,025 [INFO] Session reconnected: _6qtMDBjvWx3mfoOL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:09:10,026 [INFO] Disposing FletApp: fRmvaxGt
+2025-06-16 12:14:34,621 [INFO] Session disconnected: _3A3NRBjZCIShTcxY_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:34,622 [INFO] Session disconnected: _6qtMDBjvWx3mfoOL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:34,622 [INFO] Session disconnected: _wdsCVBMLGXqaNuj9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:34,623 [INFO] Session disconnected: _cmHZVieRYPKp565e_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:34,623 [INFO] Session disconnected: _5Fq61Ndcdt7cXUs1_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:34,624 [INFO] Session disconnected: _Resm8FZET9ePBvbZ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:34,624 [INFO] Session disconnected: _zG9JkI1XETfGUlWK_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:34,723 [INFO] Shutting down Flet App Manager
+2025-06-16 12:14:34,723 [INFO] Deleting temp dir: /tmp/tmpg9ihfc_9
+2025-06-16 12:14:34,724 [INFO] Flet app has started...
+2025-06-16 12:14:34,724 [INFO] Closing Flet web server...
+2025-06-16 12:14:37,566 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:14:38,071 [INFO] Starting Flet web server on port 8550...
+2025-06-16 12:14:38,073 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 12:14:38,073 [INFO] Use color emoji: False
+2025-06-16 12:14:38,074 [INFO] Route URL strategy configured: path
+2025-06-16 12:14:38,112 [INFO] Starting up Flet App Manager
+2025-06-16 12:14:38,112 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 12:14:38,962 [INFO] Temp dir created for patched index and manifest: /tmp/tmpqym_e_8m
+2025-06-16 12:14:38,962 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 12:14:38,964 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:14:38,965 [INFO] Assets dir: None
+2025-06-16 12:14:41,806 [INFO] New FletApp: elvZgmHw
+2025-06-16 12:14:41,814 [INFO] New FletApp: 86TXCRyl
+2025-06-16 12:14:41,815 [INFO] New session created (1 total): _mH4hsxI0TG67SoBt_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:41,816 [INFO] Start session: mH4hsxI0TG67SoBt
+2025-06-16 12:14:41,825 [INFO] New session created (2 total): _Xpx94tsTEjhZfqSm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:41,836 [INFO] Start session: Xpx94tsTEjhZfqSm
+2025-06-16 12:14:41,840 [INFO] New FletApp: tu3nc92Z
+2025-06-16 12:14:41,846 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:14:41,884 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:14:41,885 [INFO] New session created (3 total): _ap7kG67yFJ2fGzfr_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:41,886 [INFO] Start session: ap7kG67yFJ2fGzfr
+2025-06-16 12:14:41,891 [INFO] New FletApp: TEJq19Ti
+2025-06-16 12:14:41,903 [INFO] New session created (4 total): _qVNAywlG0Tp6Sleb_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:41,905 [INFO] Start session: qVNAywlG0Tp6Sleb
+2025-06-16 12:14:41,909 [INFO] New FletApp: wAFUJyCM
+2025-06-16 12:14:41,933 [INFO] New session created (5 total): _xS3oJlBj2ocBzGqc_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:41,936 [INFO] Start session: xS3oJlBj2ocBzGqc
+2025-06-16 12:14:41,938 [INFO] New FletApp: ek1ZQbZI
+2025-06-16 12:14:41,955 [INFO] New session created (6 total): _ei2mPIPIpN3WXAg8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:41,957 [INFO] Start session: ei2mPIPIpN3WXAg8
+2025-06-16 12:14:41,961 [INFO] New FletApp: LS0NqJCZ
+2025-06-16 12:14:41,976 [INFO] New session created (7 total): _lKI8rOL5jG5Jjjxz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:41,981 [INFO] Start session: lKI8rOL5jG5Jjjxz
+2025-06-16 12:14:41,990 [INFO] New FletApp: GAcOCA4Y
+2025-06-16 12:14:42,012 [INFO] New session created (8 total): _7ge9sSBjY2EIwsrZ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:14:42,013 [INFO] Start session: 7ge9sSBjY2EIwsrZ
+2025-06-16 12:17:36,133 [INFO] Session disconnected: _mH4hsxI0TG67SoBt_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,136 [INFO] Session disconnected: _ei2mPIPIpN3WXAg8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,137 [INFO] Session disconnected: _qVNAywlG0Tp6Sleb_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,139 [INFO] Session disconnected: _xS3oJlBj2ocBzGqc_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,141 [INFO] Session disconnected: _ap7kG67yFJ2fGzfr_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,143 [INFO] Session disconnected: _7ge9sSBjY2EIwsrZ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,146 [INFO] Session disconnected: _Xpx94tsTEjhZfqSm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,148 [INFO] Session disconnected: _lKI8rOL5jG5Jjjxz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:36,234 [INFO] Shutting down Flet App Manager
+2025-06-16 12:17:36,234 [INFO] Deleting temp dir: /tmp/tmpqym_e_8m
+2025-06-16 12:17:36,235 [INFO] Flet app has started...
+2025-06-16 12:17:36,235 [INFO] Closing Flet web server...
+2025-06-16 12:17:39,795 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:17:40,257 [INFO] Starting Flet web server on port 8550...
+2025-06-16 12:17:40,259 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 12:17:40,259 [INFO] Use color emoji: False
+2025-06-16 12:17:40,259 [INFO] Route URL strategy configured: path
+2025-06-16 12:17:40,301 [INFO] Starting up Flet App Manager
+2025-06-16 12:17:40,302 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 12:17:41,058 [INFO] Temp dir created for patched index and manifest: /tmp/tmpkc2azger
+2025-06-16 12:17:41,058 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 12:17:41,058 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:17:41,059 [INFO] Assets dir: None
+2025-06-16 12:17:42,336 [INFO] New FletApp: 3hSaYaTd
+2025-06-16 12:17:42,342 [INFO] New FletApp: 4RNOsOjV
+2025-06-16 12:17:42,347 [INFO] New FletApp: FRZqO62X
+2025-06-16 12:17:42,352 [INFO] New session created (1 total): _Z2ofEbX0i3mDiN9J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,354 [INFO] Start session: Z2ofEbX0i3mDiN9J
+2025-06-16 12:17:42,361 [INFO] New FletApp: PH5TOBH8
+2025-06-16 12:17:42,384 [INFO] New session created (2 total): _iR9TKMXZmUVYWp96_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,391 [INFO] Start session: iR9TKMXZmUVYWp96
+2025-06-16 12:17:42,397 [INFO] New FletApp: hWaeFLzx
+2025-06-16 12:17:42,399 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:17:42,401 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:17:42,411 [INFO] New FletApp: gaDaAKP4
+2025-06-16 12:17:42,510 [INFO] New session created (3 total): _Xsmczn8EtCbU6xMD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,516 [INFO] Start session: Xsmczn8EtCbU6xMD
+2025-06-16 12:17:42,524 [INFO] New session created (4 total): _1iiw9pt6OrfWGiBp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,526 [INFO] New session created (5 total): _PCqBDFJTJHU71Vn9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,538 [INFO] Start session: 1iiw9pt6OrfWGiBp
+2025-06-16 12:17:42,545 [INFO] Start session: PCqBDFJTJHU71Vn9
+2025-06-16 12:17:42,558 [INFO] New session created (6 total): _zSJ2DMhrCNVecS7u_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,567 [INFO] Start session: zSJ2DMhrCNVecS7u
+2025-06-16 12:17:42,583 [INFO] New FletApp: h1mPFiaB
+2025-06-16 12:17:42,607 [INFO] New session created (7 total): _51A9C8saeraxhi9K_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,611 [INFO] Start session: 51A9C8saeraxhi9K
+2025-06-16 12:17:42,634 [INFO] New FletApp: 1iTBcqTr
+2025-06-16 12:17:42,654 [INFO] New session created (8 total): _f2HgSXacreeL011q_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:42,678 [INFO] Start session: f2HgSXacreeL011q
+2025-06-16 12:17:42,897 [INFO] New FletApp: 88etAZQd
+2025-06-16 12:17:43,132 [INFO] New session created (9 total): _ppXkjgCXdqYotXp6_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:43,133 [INFO] Start session: ppXkjgCXdqYotXp6
+2025-06-16 12:17:47,851 [INFO] Session disconnected: _Z2ofEbX0i3mDiN9J_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:47,884 [INFO] Session disconnected: _PCqBDFJTJHU71Vn9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:48,298 [INFO] Session disconnected: _zSJ2DMhrCNVecS7u_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:48,762 [INFO] Session disconnected: _f2HgSXacreeL011q_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:49,539 [INFO] Session disconnected: _1iiw9pt6OrfWGiBp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:50,034 [INFO] Session disconnected: _iR9TKMXZmUVYWp96_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:17:50,893 [INFO] Session disconnected: _Xsmczn8EtCbU6xMD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:17,757 [INFO] Session disconnected: _51A9C8saeraxhi9K_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:17,761 [INFO] Session disconnected: _ppXkjgCXdqYotXp6_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:17,858 [INFO] Shutting down Flet App Manager
+2025-06-16 12:20:17,858 [INFO] Deleting temp dir: /tmp/tmpkc2azger
+2025-06-16 12:20:17,858 [INFO] Flet app has started...
+2025-06-16 12:20:17,859 [INFO] Closing Flet web server...
+2025-06-16 12:20:20,949 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:20:21,492 [INFO] Starting Flet web server on port 8550...
+2025-06-16 12:20:21,494 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 12:20:21,494 [INFO] Use color emoji: False
+2025-06-16 12:20:21,495 [INFO] Route URL strategy configured: path
+2025-06-16 12:20:21,536 [INFO] Starting up Flet App Manager
+2025-06-16 12:20:21,536 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 12:20:22,851 [INFO] Temp dir created for patched index and manifest: /tmp/tmpfrzcfojp
+2025-06-16 12:20:22,852 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 12:20:22,852 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:20:22,853 [INFO] Assets dir: None
+2025-06-16 12:20:23,198 [INFO] New FletApp: Z7ncHpf5
+2025-06-16 12:20:23,230 [INFO] New FletApp: 4cMyEE6C
+2025-06-16 12:20:23,236 [INFO] New session created (1 total): _LtjK1Im1nAHKcu7z_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:23,236 [INFO] Start session: LtjK1Im1nAHKcu7z
+2025-06-16 12:20:23,259 [INFO] New session created (2 total): _Ns8G2KHryU490XGC_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:23,268 [INFO] Start session: Ns8G2KHryU490XGC
+2025-06-16 12:20:23,317 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:20:23,320 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:20:25,197 [INFO] New FletApp: l8otg1um
+2025-06-16 12:20:25,303 [INFO] New session created (3 total): _esKscim0TW9l9cjn_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:25,303 [INFO] Start session: esKscim0TW9l9cjn
+2025-06-16 12:20:25,728 [INFO] Session disconnected: _LtjK1Im1nAHKcu7z_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:26,267 [INFO] Session disconnected: _Ns8G2KHryU490XGC_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:48,227 [INFO] Session disconnected: _esKscim0TW9l9cjn_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:49,724 [INFO] New FletApp: xKhMunBk
+2025-06-16 12:20:49,774 [INFO] Existing session requested: esKscim0TW9l9cjn
+2025-06-16 12:20:49,775 [INFO] Session reconnected: _esKscim0TW9l9cjn_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:20:49,776 [INFO] Disposing FletApp: l8otg1um
+2025-06-16 12:39:09,862 [INFO] Session disconnected: _esKscim0TW9l9cjn_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:39:09,962 [INFO] Shutting down Flet App Manager
+2025-06-16 12:39:09,962 [INFO] Deleting temp dir: /tmp/tmpfrzcfojp
+2025-06-16 12:39:09,964 [INFO] Flet app has started...
+2025-06-16 12:39:09,964 [INFO] Closing Flet web server...
+2025-06-16 12:39:13,488 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:39:13,887 [INFO] Starting Flet web server on port 8550...
+2025-06-16 12:39:13,888 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 12:39:13,889 [INFO] Use color emoji: False
+2025-06-16 12:39:13,889 [INFO] Route URL strategy configured: path
+2025-06-16 12:39:13,916 [INFO] Starting up Flet App Manager
+2025-06-16 12:39:13,916 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 12:39:14,587 [INFO] Temp dir created for patched index and manifest: /tmp/tmp0tts5gvc
+2025-06-16 12:39:14,587 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 12:39:14,587 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:39:14,587 [INFO] Assets dir: None
+2025-06-16 12:39:15,623 [INFO] New FletApp: ZNoWsDV9
+2025-06-16 12:39:15,711 [INFO] New session created (1 total): _WCrnWsGSn7Hd74c5_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:39:15,712 [INFO] Start session: WCrnWsGSn7Hd74c5
+2025-06-16 12:39:15,749 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:39:16,201 [INFO] New FletApp: 2tVGPHik
+2025-06-16 12:39:16,251 [INFO] New session created (2 total): _I1zDRPwTIMPKA7G8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:39:16,252 [INFO] Start session: I1zDRPwTIMPKA7G8
+2025-06-16 12:39:25,918 [INFO] Session disconnected: _I1zDRPwTIMPKA7G8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:39:27,464 [INFO] New FletApp: fItNMGeQ
+2025-06-16 12:39:27,656 [INFO] Existing session requested: I1zDRPwTIMPKA7G8
+2025-06-16 12:39:27,657 [INFO] Session reconnected: _I1zDRPwTIMPKA7G8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:39:27,657 [INFO] Disposing FletApp: 2tVGPHik
+2025-06-16 12:55:58,859 [INFO] Session disconnected: _WCrnWsGSn7Hd74c5_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:55:58,861 [INFO] Session disconnected: _I1zDRPwTIMPKA7G8_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:55:58,959 [INFO] Shutting down Flet App Manager
+2025-06-16 12:55:58,961 [INFO] Deleting temp dir: /tmp/tmp0tts5gvc
+2025-06-16 12:55:58,962 [INFO] Flet app has started...
+2025-06-16 12:55:58,962 [INFO] Closing Flet web server...
+2025-06-16 12:56:02,070 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:56:02,481 [INFO] Starting Flet web server on port 8550...
+2025-06-16 12:56:02,482 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 12:56:02,482 [INFO] Use color emoji: False
+2025-06-16 12:56:02,482 [INFO] Route URL strategy configured: path
+2025-06-16 12:56:02,508 [INFO] Starting up Flet App Manager
+2025-06-16 12:56:02,508 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 12:56:03,130 [INFO] Temp dir created for patched index and manifest: /tmp/tmpxqag3xfx
+2025-06-16 12:56:03,131 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 12:56:03,131 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 12:56:03,131 [INFO] Assets dir: None
+2025-06-16 12:56:04,101 [INFO] New FletApp: 9fN4THkj
+2025-06-16 12:56:04,154 [INFO] New session created (1 total): _Zl27RHIgSjxu35TQ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:56:04,155 [INFO] Start session: Zl27RHIgSjxu35TQ
+2025-06-16 12:56:04,174 [INFO] New FletApp: q18kw16L
+2025-06-16 12:56:04,241 [INFO] New session created (2 total): _hCMtXxzCA6ZeqyL9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:56:04,252 [INFO] Start session: hCMtXxzCA6ZeqyL9
+2025-06-16 12:56:04,304 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:56:04,356 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 12:56:04,847 [INFO] New FletApp: FSe5qwUS
+2025-06-16 12:56:04,897 [INFO] New session created (3 total): _7SPEgOIw1cPOOmKO_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 12:56:04,902 [INFO] Start session: 7SPEgOIw1cPOOmKO
+2025-06-16 13:00:52,133 [INFO] Session disconnected: _hCMtXxzCA6ZeqyL9_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:00:52,135 [INFO] Session disconnected: _Zl27RHIgSjxu35TQ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:00:52,138 [INFO] Session disconnected: _7SPEgOIw1cPOOmKO_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:00:52,232 [INFO] Shutting down Flet App Manager
+2025-06-16 13:00:52,233 [INFO] Deleting temp dir: /tmp/tmpxqag3xfx
+2025-06-16 13:00:52,233 [INFO] Flet app has started...
+2025-06-16 13:00:52,233 [INFO] Closing Flet web server...
+2025-06-16 13:00:56,564 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:00:56,985 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:00:56,986 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:00:56,986 [INFO] Use color emoji: False
+2025-06-16 13:00:56,986 [INFO] Route URL strategy configured: path
+2025-06-16 13:00:57,017 [INFO] Starting up Flet App Manager
+2025-06-16 13:00:57,017 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:00:57,623 [INFO] New FletApp: 4LrXLAa0
+2025-06-16 13:00:57,627 [INFO] New session created (1 total): _rUdzUVhptaXj9TsH_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:00:57,627 [INFO] Start session: rUdzUVhptaXj9TsH
+2025-06-16 13:00:57,633 [INFO] New FletApp: YawyMO5W
+2025-06-16 13:00:57,658 [INFO] New FletApp: efTxAM4h
+2025-06-16 13:00:57,659 [INFO] New session created (2 total): _oB0vqhzVTUm12ANq_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:00:57,660 [INFO] Start session: oB0vqhzVTUm12ANq
+2025-06-16 13:00:57,667 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:00:57,668 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:00:57,782 [INFO] New session created (3 total): _uFrBuyjH0BlANfZ4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:00:57,782 [INFO] Start session: uFrBuyjH0BlANfZ4
+2025-06-16 13:00:57,832 [INFO] Temp dir created for patched index and manifest: /tmp/tmp4z6rati7
+2025-06-16 13:00:57,833 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:00:57,833 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:00:57,833 [INFO] Assets dir: None
+2025-06-16 13:00:59,584 [INFO] New FletApp: 9YTIlkop
+2025-06-16 13:00:59,624 [INFO] New session created (4 total): _9ziFqz8IYvp0O0Qa_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:00:59,625 [INFO] Start session: 9ziFqz8IYvp0O0Qa
+2025-06-16 13:04:08,736 [INFO] Session disconnected: _uFrBuyjH0BlANfZ4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:08,739 [INFO] Session disconnected: _rUdzUVhptaXj9TsH_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:08,741 [INFO] Session disconnected: _9ziFqz8IYvp0O0Qa_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:08,743 [INFO] Session disconnected: _oB0vqhzVTUm12ANq_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:08,836 [INFO] Shutting down Flet App Manager
+2025-06-16 13:04:08,837 [INFO] Deleting temp dir: /tmp/tmp4z6rati7
+2025-06-16 13:04:08,837 [INFO] Flet app has started...
+2025-06-16 13:04:08,838 [INFO] Closing Flet web server...
+2025-06-16 13:04:13,193 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:04:13,644 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:04:13,645 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:04:13,645 [INFO] Use color emoji: False
+2025-06-16 13:04:13,645 [INFO] Route URL strategy configured: path
+2025-06-16 13:04:13,681 [INFO] Starting up Flet App Manager
+2025-06-16 13:04:13,682 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:04:14,558 [INFO] Temp dir created for patched index and manifest: /tmp/tmpxjjy9jtf
+2025-06-16 13:04:14,558 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:04:14,558 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:04:14,558 [INFO] Assets dir: None
+2025-06-16 13:04:15,423 [INFO] New FletApp: wmiyY9Zi
+2025-06-16 13:04:15,428 [INFO] New session created (1 total): _In7rRN8V0uGKJ8gK_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:15,430 [INFO] Start session: In7rRN8V0uGKJ8gK
+2025-06-16 13:04:15,445 [INFO] New FletApp: bjt3xvBY
+2025-06-16 13:04:15,458 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:04:15,494 [INFO] New session created (2 total): _J8JEzf3WHgVJ3nhE_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:15,502 [INFO] Start session: J8JEzf3WHgVJ3nhE
+2025-06-16 13:04:15,504 [INFO] New FletApp: j6V0dMnF
+2025-06-16 13:04:15,520 [INFO] New session created (3 total): _k2Ze6mVy5IxIpTEj_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:15,521 [INFO] Start session: k2Ze6mVy5IxIpTEj
+2025-06-16 13:04:15,527 [INFO] New FletApp: uGWR4wqu
+2025-06-16 13:04:15,541 [INFO] New session created (4 total): _Rdh0YMpVKRDG73IJ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:15,541 [INFO] Start session: Rdh0YMpVKRDG73IJ
+2025-06-16 13:04:16,371 [INFO] New FletApp: GTVOoyyg
+2025-06-16 13:04:16,413 [INFO] New session created (5 total): _oZ4UOFZAeeDmz8ap_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:04:16,414 [INFO] Start session: oZ4UOFZAeeDmz8ap
+2025-06-16 13:07:12,119 [INFO] Session disconnected: _k2Ze6mVy5IxIpTEj_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:12,120 [INFO] Session disconnected: _Rdh0YMpVKRDG73IJ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:12,120 [INFO] Session disconnected: _oZ4UOFZAeeDmz8ap_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:12,121 [INFO] Session disconnected: _In7rRN8V0uGKJ8gK_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:12,121 [INFO] Session disconnected: _J8JEzf3WHgVJ3nhE_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:12,219 [INFO] Shutting down Flet App Manager
+2025-06-16 13:07:12,219 [INFO] Deleting temp dir: /tmp/tmpxjjy9jtf
+2025-06-16 13:07:12,220 [INFO] Flet app has started...
+2025-06-16 13:07:12,220 [INFO] Closing Flet web server...
+2025-06-16 13:07:16,454 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:07:16,887 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:07:16,889 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:07:16,889 [INFO] Use color emoji: False
+2025-06-16 13:07:16,889 [INFO] Route URL strategy configured: path
+2025-06-16 13:07:16,915 [INFO] Starting up Flet App Manager
+2025-06-16 13:07:16,915 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:07:17,307 [INFO] New FletApp: MGc0WxgO
+2025-06-16 13:07:17,319 [INFO] New FletApp: bOZ95Hav
+2025-06-16 13:07:17,323 [INFO] New session created (1 total): _jLs5uRqxZzeEHOVF_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:17,324 [INFO] Start session: jLs5uRqxZzeEHOVF
+2025-06-16 13:07:17,332 [INFO] New session created (2 total): _W5VeOFhOYEE0pgBF_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:17,339 [INFO] Start session: W5VeOFhOYEE0pgBF
+2025-06-16 13:07:17,348 [INFO] New FletApp: 11csKlWc
+2025-06-16 13:07:17,362 [INFO] New session created (3 total): _ITIOpgJST5LBzHP7_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:17,366 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:07:17,366 [INFO] Start session: ITIOpgJST5LBzHP7
+2025-06-16 13:07:17,406 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:07:17,410 [INFO] New FletApp: 7UH99oph
+2025-06-16 13:07:17,411 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:07:17,490 [INFO] New session created (4 total): _HDqbRnCoww0ODyIu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:17,491 [INFO] Start session: HDqbRnCoww0ODyIu
+2025-06-16 13:07:17,502 [INFO] New FletApp: 0jVabWbz
+2025-06-16 13:07:17,522 [INFO] New session created (5 total): _2GawXZgAWDzr6wZP_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:17,522 [INFO] Start session: 2GawXZgAWDzr6wZP
+2025-06-16 13:07:17,743 [INFO] Temp dir created for patched index and manifest: /tmp/tmpjgopdrze
+2025-06-16 13:07:17,745 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:07:17,746 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:07:17,747 [INFO] Assets dir: None
+2025-06-16 13:07:19,535 [INFO] New FletApp: 2Ki7vJNo
+2025-06-16 13:07:19,568 [INFO] New session created (6 total): _myUGqzMuHQLz3uiu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:07:19,568 [INFO] Start session: myUGqzMuHQLz3uiu
+2025-06-16 13:11:59,425 [INFO] Session disconnected: _jLs5uRqxZzeEHOVF_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:11:59,426 [INFO] Session disconnected: _ITIOpgJST5LBzHP7_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:11:59,426 [INFO] Session disconnected: _W5VeOFhOYEE0pgBF_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:11:59,428 [INFO] Session disconnected: _HDqbRnCoww0ODyIu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:11:59,430 [INFO] Session disconnected: _myUGqzMuHQLz3uiu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:11:59,431 [INFO] Session disconnected: _2GawXZgAWDzr6wZP_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:11:59,525 [INFO] Shutting down Flet App Manager
+2025-06-16 13:11:59,526 [INFO] Deleting temp dir: /tmp/tmpjgopdrze
+2025-06-16 13:11:59,528 [INFO] Flet app has started...
+2025-06-16 13:11:59,528 [INFO] Closing Flet web server...
+2025-06-16 13:12:03,403 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:12:03,756 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:12:03,757 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:12:03,757 [INFO] Use color emoji: False
+2025-06-16 13:12:03,757 [INFO] Route URL strategy configured: path
+2025-06-16 13:12:03,783 [INFO] Starting up Flet App Manager
+2025-06-16 13:12:03,783 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:12:04,344 [INFO] Temp dir created for patched index and manifest: /tmp/tmprfnzt5k_
+2025-06-16 13:12:04,345 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:12:04,345 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:12:04,345 [INFO] Assets dir: None
+2025-06-16 13:12:06,963 [INFO] New FletApp: QNO7dt3w
+2025-06-16 13:12:06,977 [INFO] New FletApp: rX9AarqB
+2025-06-16 13:12:06,981 [INFO] New session created (1 total): _BxXfAllYHMy33YGs_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:06,982 [INFO] Start session: BxXfAllYHMy33YGs
+2025-06-16 13:12:06,989 [INFO] New session created (2 total): _7nv5Ty1Vorw3NSQm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:06,990 [INFO] Start session: 7nv5Ty1Vorw3NSQm
+2025-06-16 13:12:07,008 [INFO] New FletApp: ArHshoxo
+2025-06-16 13:12:07,023 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:12:07,025 [INFO] New session created (3 total): _yUa5Fhivj1Ai1YbS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:07,030 [INFO] Start session: yUa5Fhivj1Ai1YbS
+2025-06-16 13:12:07,068 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:12:07,069 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:12:07,146 [INFO] New FletApp: L6F1Asih
+2025-06-16 13:12:07,159 [INFO] New FletApp: e82Spxiv
+2025-06-16 13:12:07,167 [INFO] New FletApp: eHz4qgIN
+2025-06-16 13:12:07,177 [INFO] New session created (4 total): _rHIjLIiogJNWBGkP_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:07,183 [INFO] New session created (5 total): _vnyF0SdDvDaEIUAe_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:07,183 [INFO] Start session: rHIjLIiogJNWBGkP
+2025-06-16 13:12:07,195 [INFO] Start session: vnyF0SdDvDaEIUAe
+2025-06-16 13:12:07,201 [INFO] New session created (6 total): _0jzqeAo7fqO5w9K2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:07,202 [INFO] Start session: 0jzqeAo7fqO5w9K2
+2025-06-16 13:12:07,207 [INFO] New FletApp: qKDc2KDR
+2025-06-16 13:12:07,223 [INFO] New session created (7 total): _SaRR8WBGp8VKeEvS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:07,227 [INFO] Start session: SaRR8WBGp8VKeEvS
+2025-06-16 13:12:13,081 [INFO] Session disconnected: _7nv5Ty1Vorw3NSQm_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:13,596 [INFO] Session disconnected: _vnyF0SdDvDaEIUAe_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:14,203 [INFO] Session disconnected: _0jzqeAo7fqO5w9K2_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:14,446 [INFO] Session disconnected: _rHIjLIiogJNWBGkP_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:14,858 [INFO] Session disconnected: _BxXfAllYHMy33YGs_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:12:15,199 [INFO] Session disconnected: _yUa5Fhivj1Ai1YbS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:20:39,451 [INFO] Session disconnected: _SaRR8WBGp8VKeEvS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:20:39,553 [INFO] Shutting down Flet App Manager
+2025-06-16 13:20:39,554 [INFO] Deleting temp dir: /tmp/tmprfnzt5k_
+2025-06-16 13:20:39,558 [INFO] Flet app has started...
+2025-06-16 13:20:39,558 [INFO] Closing Flet web server...
+2025-06-16 13:20:42,911 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:20:43,328 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:20:43,329 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:20:43,330 [INFO] Use color emoji: False
+2025-06-16 13:20:43,330 [INFO] Route URL strategy configured: path
+2025-06-16 13:20:43,361 [INFO] Starting up Flet App Manager
+2025-06-16 13:20:43,361 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:20:43,551 [INFO] New FletApp: Gvmcu8pQ
+2025-06-16 13:20:43,559 [INFO] New session created (1 total): _WxDHxzoHxp7y9tzI_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:20:43,560 [INFO] Start session: WxDHxzoHxp7y9tzI
+2025-06-16 13:20:43,582 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:20:44,110 [INFO] Temp dir created for patched index and manifest: /tmp/tmpn5qdrbd0
+2025-06-16 13:20:44,111 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:20:44,111 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:20:44,111 [INFO] Assets dir: None
+2025-06-16 13:20:45,644 [INFO] New FletApp: glygw5AO
+2025-06-16 13:20:45,685 [INFO] New session created (2 total): _1viJbiAJyjoYCSy5_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:20:45,686 [INFO] Start session: 1viJbiAJyjoYCSy5
+2025-06-16 13:24:56,391 [INFO] Session disconnected: _WxDHxzoHxp7y9tzI_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:24:56,392 [INFO] Session disconnected: _1viJbiAJyjoYCSy5_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:24:56,490 [INFO] Shutting down Flet App Manager
+2025-06-16 13:24:56,490 [INFO] Deleting temp dir: /tmp/tmpn5qdrbd0
+2025-06-16 13:24:56,491 [INFO] Flet app has started...
+2025-06-16 13:24:56,492 [INFO] Closing Flet web server...
+2025-06-16 13:24:59,501 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:24:59,965 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:24:59,966 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:24:59,966 [INFO] Use color emoji: False
+2025-06-16 13:24:59,966 [INFO] Route URL strategy configured: path
+2025-06-16 13:25:00,000 [INFO] Starting up Flet App Manager
+2025-06-16 13:25:00,000 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:25:00,702 [INFO] Temp dir created for patched index and manifest: /tmp/tmpxgh5o4do
+2025-06-16 13:25:00,702 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:25:00,702 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:25:00,702 [INFO] Assets dir: None
+2025-06-16 13:25:00,999 [INFO] New FletApp: ymbfr4b8
+2025-06-16 13:25:01,008 [INFO] New FletApp: WCp4CTYD
+2025-06-16 13:25:01,011 [INFO] New session created (1 total): _N5ryUamViD0WznWs_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:25:01,012 [INFO] Start session: N5ryUamViD0WznWs
+2025-06-16 13:25:01,024 [INFO] New session created (2 total): _3IirlE97nIQPUton_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:25:01,033 [INFO] Start session: 3IirlE97nIQPUton
+2025-06-16 13:25:01,066 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:25:01,068 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:25:02,461 [INFO] New FletApp: 2Wtn6mNk
+2025-06-16 13:25:02,504 [INFO] New session created (3 total): _uoiuA4SarGfJBBt1_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:25:02,504 [INFO] Start session: uoiuA4SarGfJBBt1
+2025-06-16 13:25:10,995 [INFO] Session disconnected: _N5ryUamViD0WznWs_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:25:11,560 [INFO] Session disconnected: _3IirlE97nIQPUton_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:26:05,308 [INFO] Session disconnected: _uoiuA4SarGfJBBt1_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:26:05,407 [INFO] Shutting down Flet App Manager
+2025-06-16 13:26:05,408 [INFO] Deleting temp dir: /tmp/tmpxgh5o4do
+2025-06-16 13:26:05,410 [INFO] Flet app has started...
+2025-06-16 13:26:05,411 [INFO] Closing Flet web server...
+2025-06-16 13:27:42,427 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:27:42,807 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:27:42,808 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:27:42,808 [INFO] Use color emoji: False
+2025-06-16 13:27:42,808 [INFO] Route URL strategy configured: path
+2025-06-16 13:27:42,840 [INFO] Starting up Flet App Manager
+2025-06-16 13:27:42,841 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:27:43,484 [INFO] Temp dir created for patched index and manifest: /tmp/tmpwqa_jaas
+2025-06-16 13:27:43,485 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:27:43,486 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:27:43,487 [INFO] Assets dir: None
+2025-06-16 13:27:56,749 [INFO] New FletApp: jFXaOkrR
+2025-06-16 13:27:56,757 [INFO] New session created (1 total): _1WLuQZowjJrd4lC6_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:27:56,759 [INFO] Start session: 1WLuQZowjJrd4lC6
+2025-06-16 13:27:56,846 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:31:02,323 [INFO] Session disconnected: _1WLuQZowjJrd4lC6_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:31:02,423 [INFO] Shutting down Flet App Manager
+2025-06-16 13:31:02,423 [INFO] Deleting temp dir: /tmp/tmpwqa_jaas
+2025-06-16 13:31:02,424 [INFO] Flet app has started...
+2025-06-16 13:31:02,424 [INFO] Closing Flet web server...
+2025-06-16 13:31:05,422 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:31:05,916 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:31:05,917 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:31:05,917 [INFO] Use color emoji: False
+2025-06-16 13:31:05,917 [INFO] Route URL strategy configured: path
+2025-06-16 13:31:05,950 [INFO] Starting up Flet App Manager
+2025-06-16 13:31:05,951 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:31:06,845 [INFO] Temp dir created for patched index and manifest: /tmp/tmp5sscjwig
+2025-06-16 13:31:06,846 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:31:06,847 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:31:06,848 [INFO] Assets dir: None
+2025-06-16 13:31:07,948 [INFO] New FletApp: xZ3QyLxz
+2025-06-16 13:31:07,965 [INFO] New session created (1 total): _uICMN7wE2GVm3AWA_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:31:07,966 [INFO] Start session: uICMN7wE2GVm3AWA
+2025-06-16 13:31:08,034 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:31:08,719 [INFO] New FletApp: VRmJSltj
+2025-06-16 13:31:08,767 [INFO] New session created (2 total): _dZUwi4d6rILivMDr_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:31:08,768 [INFO] Start session: dZUwi4d6rILivMDr
+2025-06-16 13:33:49,107 [INFO] Session disconnected: _dZUwi4d6rILivMDr_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:33:49,108 [INFO] Session disconnected: _uICMN7wE2GVm3AWA_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:33:49,203 [INFO] Shutting down Flet App Manager
+2025-06-16 13:33:49,203 [INFO] Deleting temp dir: /tmp/tmp5sscjwig
+2025-06-16 13:33:49,206 [INFO] Flet app has started...
+2025-06-16 13:33:49,207 [INFO] Closing Flet web server...
+2025-06-16 13:33:53,280 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:33:53,949 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:33:53,950 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:33:53,950 [INFO] Use color emoji: False
+2025-06-16 13:33:53,950 [INFO] Route URL strategy configured: path
+2025-06-16 13:33:54,001 [INFO] Starting up Flet App Manager
+2025-06-16 13:33:54,001 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:33:54,484 [INFO] New FletApp: mqLRYZ7Z
+2025-06-16 13:33:54,490 [INFO] New session created (1 total): _CdVtHRwTb3z4ANp3_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:33:54,491 [INFO] Start session: CdVtHRwTb3z4ANp3
+2025-06-16 13:33:54,507 [INFO] New FletApp: 2vkyieOO
+2025-06-16 13:33:54,531 [INFO] New session created (2 total): _87EXXFvSPVd3L8Cz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:33:54,532 [INFO] Start session: 87EXXFvSPVd3L8Cz
+2025-06-16 13:33:54,558 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:33:54,560 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:33:55,365 [INFO] Temp dir created for patched index and manifest: /tmp/tmpfnwjsqoi
+2025-06-16 13:33:55,366 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:33:55,366 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:33:55,367 [INFO] Assets dir: None
+2025-06-16 13:33:57,756 [INFO] New FletApp: HY1DgTNo
+2025-06-16 13:33:57,821 [INFO] New session created (3 total): _LwC9zOiJQT5eMG2x_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:33:57,824 [INFO] Start session: LwC9zOiJQT5eMG2x
+2025-06-16 13:34:49,678 [ERROR] Future exception was never retrieved
+future: <Future finished exception=TypeError("AlertDialog.__init__() got an unexpected keyword argument 'width'")>
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet/core/page.py", line 906, in wrapper
+    handler(*args)
+    ~~~~~~~^^^^^^^
+  File "/media/sirwan/New Volume/VScode/ec2_backup_tool/webapp/restore.py", line 248, in on_restore
+    dialog = ft.AlertDialog(
+        modal=True,
+    ...<9 lines>...
+        width=480,
+    )
+TypeError: AlertDialog.__init__() got an unexpected keyword argument 'width'
+2025-06-16 13:35:24,221 [ERROR] Future exception was never retrieved
+future: <Future finished exception=TypeError("AlertDialog.__init__() got an unexpected keyword argument 'width'")>
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet/core/page.py", line 906, in wrapper
+    handler(*args)
+    ~~~~~~~^^^^^^^
+  File "/media/sirwan/New Volume/VScode/ec2_backup_tool/webapp/restore.py", line 248, in on_restore
+    dialog = ft.AlertDialog(
+        modal=True,
+    ...<9 lines>...
+        width=480,
+    )
+TypeError: AlertDialog.__init__() got an unexpected keyword argument 'width'
+2025-06-16 13:35:27,954 [ERROR] Future exception was never retrieved
+future: <Future finished exception=TypeError("AlertDialog.__init__() got an unexpected keyword argument 'width'")>
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet/core/page.py", line 906, in wrapper
+    handler(*args)
+    ~~~~~~~^^^^^^^
+  File "/media/sirwan/New Volume/VScode/ec2_backup_tool/webapp/restore.py", line 248, in on_restore
+    dialog = ft.AlertDialog(
+        modal=True,
+    ...<9 lines>...
+        width=480,
+    )
+TypeError: AlertDialog.__init__() got an unexpected keyword argument 'width'
+2025-06-16 13:40:17,217 [INFO] Session disconnected: _LwC9zOiJQT5eMG2x_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:17,222 [INFO] Session disconnected: _87EXXFvSPVd3L8Cz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:17,225 [INFO] Session disconnected: _CdVtHRwTb3z4ANp3_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:17,315 [INFO] Shutting down Flet App Manager
+2025-06-16 13:40:17,317 [INFO] Deleting temp dir: /tmp/tmpfnwjsqoi
+2025-06-16 13:40:17,321 [INFO] Flet app has started...
+2025-06-16 13:40:17,322 [INFO] Closing Flet web server...
+2025-06-16 13:40:23,591 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:40:24,009 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:40:24,010 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:40:24,010 [INFO] Use color emoji: False
+2025-06-16 13:40:24,010 [INFO] Route URL strategy configured: path
+2025-06-16 13:40:24,041 [INFO] Starting up Flet App Manager
+2025-06-16 13:40:24,042 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:40:24,438 [INFO] New FletApp: VMyD3Nny
+2025-06-16 13:40:24,445 [INFO] New session created (1 total): _tEvuDBARJdEmgcsc_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:24,446 [INFO] Start session: tEvuDBARJdEmgcsc
+2025-06-16 13:40:24,466 [INFO] New FletApp: hMUyWeic
+2025-06-16 13:40:24,472 [INFO] New FletApp: sUTnUg82
+2025-06-16 13:40:24,482 [INFO] New session created (2 total): _Yv7GTgvYMzQiZNNW_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:24,484 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:40:24,492 [INFO] Start session: Yv7GTgvYMzQiZNNW
+2025-06-16 13:40:24,498 [INFO] New session created (3 total): _WOh2oUzuybekr3kN_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:24,594 [INFO] Start session: WOh2oUzuybekr3kN
+2025-06-16 13:40:24,888 [INFO] Temp dir created for patched index and manifest: /tmp/tmpo9x2qtcr
+2025-06-16 13:40:24,947 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:40:24,948 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:40:24,948 [INFO] Assets dir: None
+2025-06-16 13:40:26,661 [INFO] New FletApp: 2Yu3BboC
+2025-06-16 13:40:26,715 [INFO] New session created (4 total): _ntG1TqdNBc1pFxs4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:26,718 [INFO] Start session: ntG1TqdNBc1pFxs4
+2025-06-16 13:40:32,056 [INFO] Session disconnected: _Yv7GTgvYMzQiZNNW_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:32,551 [INFO] Session disconnected: _tEvuDBARJdEmgcsc_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:40:32,991 [INFO] Session disconnected: _WOh2oUzuybekr3kN_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:41:28,084 [INFO] Session disconnected: _ntG1TqdNBc1pFxs4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:41:28,183 [INFO] Shutting down Flet App Manager
+2025-06-16 13:41:28,184 [INFO] Deleting temp dir: /tmp/tmpo9x2qtcr
+2025-06-16 13:41:28,187 [INFO] Flet app has started...
+2025-06-16 13:41:28,188 [INFO] Closing Flet web server...
+2025-06-16 13:47:40,441 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:47:41,081 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:47:41,083 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:47:41,084 [INFO] Use color emoji: False
+2025-06-16 13:47:41,085 [INFO] Route URL strategy configured: path
+2025-06-16 13:47:41,124 [INFO] Starting up Flet App Manager
+2025-06-16 13:47:41,125 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:47:41,985 [INFO] Temp dir created for patched index and manifest: /tmp/tmptudbd8h1
+2025-06-16 13:47:41,986 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:47:41,986 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:47:41,986 [INFO] Assets dir: None
+2025-06-16 13:47:50,056 [INFO] New FletApp: BdIhKDNY
+2025-06-16 13:47:50,061 [INFO] New session created (1 total): _n7aUE5WK7M8m5njt_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:47:50,061 [INFO] Start session: n7aUE5WK7M8m5njt
+2025-06-16 13:47:50,083 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 13:56:56,795 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:56:57,148 [INFO] Starting Flet web server on port 8550...
+2025-06-16 13:56:57,149 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 13:56:57,149 [INFO] Use color emoji: False
+2025-06-16 13:56:57,149 [INFO] Route URL strategy configured: path
+2025-06-16 13:56:57,175 [INFO] Starting up Flet App Manager
+2025-06-16 13:56:57,175 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 13:56:57,796 [INFO] Temp dir created for patched index and manifest: /tmp/tmp0s07z5x2
+2025-06-16 13:56:57,796 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 13:56:57,796 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 13:56:57,796 [INFO] Assets dir: None
+2025-06-16 13:57:43,710 [INFO] New FletApp: CdO3obai
+2025-06-16 13:57:43,717 [INFO] New session created (1 total): _ebkmZ24sNDvW3ZVS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 13:57:43,718 [INFO] Start session: ebkmZ24sNDvW3ZVS
+2025-06-16 13:57:43,747 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:01:15,776 [INFO] Session disconnected: _ebkmZ24sNDvW3ZVS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:01:15,877 [INFO] Shutting down Flet App Manager
+2025-06-16 14:01:15,878 [INFO] Deleting temp dir: /tmp/tmp0s07z5x2
+2025-06-16 14:01:15,880 [INFO] Flet app has started...
+2025-06-16 14:01:15,881 [INFO] Closing Flet web server...
+2025-06-16 14:01:18,834 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:01:19,383 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:01:19,384 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:01:19,385 [INFO] Use color emoji: False
+2025-06-16 14:01:19,385 [INFO] Route URL strategy configured: path
+2025-06-16 14:01:19,416 [INFO] Starting up Flet App Manager
+2025-06-16 14:01:19,416 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:01:19,923 [INFO] New FletApp: PHZZT0l1
+2025-06-16 14:01:19,926 [INFO] New session created (1 total): _eO5YULpJkSZ9ZryS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:01:19,927 [INFO] Start session: eO5YULpJkSZ9ZryS
+2025-06-16 14:01:19,950 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:01:20,197 [INFO] Temp dir created for patched index and manifest: /tmp/tmpb3ko46ri
+2025-06-16 14:01:20,197 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:01:20,197 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:01:20,197 [INFO] Assets dir: None
+2025-06-16 14:01:21,917 [INFO] New FletApp: LIwxGnIj
+2025-06-16 14:01:21,960 [INFO] New session created (2 total): _mf6pz4SYI0EP4Kh7_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:01:21,960 [INFO] Start session: mf6pz4SYI0EP4Kh7
+2025-06-16 14:01:26,337 [INFO] Session disconnected: _eO5YULpJkSZ9ZryS_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:01:37,566 [INFO] 🧩 Step 3: Creating a new volume from snapshot snap-01e13488ebca4d802.
+2025-06-16 14:01:46,584 [INFO] ✅ Created volume vol-06c6abce1c929d6b2 from snapshot.
+2025-06-16 14:02:02,107 [INFO] 🔍 Fetching root volume of the selected target instance...
+2025-06-16 14:02:02,564 [INFO] 🛑 Stopping instance i-09c6489e4419a1882...
+2025-06-16 14:02:33,975 [INFO] ❌ Detaching original root volume vol-0fc744bdee55664ab...
+2025-06-16 14:02:50,155 [INFO] 📎 Attaching restored volume vol-06c6abce1c929d6b2 as root device /dev/xvda...
+2025-06-16 14:02:50,878 [INFO] 🚀 Starting instance i-09c6489e4419a1882...
+2025-06-16 14:03:37,772 [INFO] ✅ Restore complete. Instance i-09c6489e4419a1882 now running with root volume vol-06c6abce1c929d6b2.
+2025-06-16 14:16:34,327 [INFO] Session disconnected: _mf6pz4SYI0EP4Kh7_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:16:34,428 [INFO] Shutting down Flet App Manager
+2025-06-16 14:16:34,428 [INFO] Deleting temp dir: /tmp/tmpb3ko46ri
+2025-06-16 14:16:34,429 [INFO] Flet app has started...
+2025-06-16 14:16:34,429 [INFO] Closing Flet web server...
+2025-06-16 14:16:37,298 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:16:37,768 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:16:37,769 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:16:37,770 [INFO] Use color emoji: False
+2025-06-16 14:16:37,770 [INFO] Route URL strategy configured: path
+2025-06-16 14:16:37,804 [INFO] Starting up Flet App Manager
+2025-06-16 14:16:37,804 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:16:38,286 [INFO] New FletApp: 7bSadYXF
+2025-06-16 14:16:38,298 [INFO] New session created (1 total): _RbXWU8Bzu0X58JJh_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:16:38,299 [INFO] Start session: RbXWU8Bzu0X58JJh
+2025-06-16 14:16:38,340 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:16:38,943 [INFO] Temp dir created for patched index and manifest: /tmp/tmp80ucxh7l
+2025-06-16 14:16:38,943 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:16:38,943 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:16:38,943 [INFO] Assets dir: None
+2025-06-16 14:16:40,613 [INFO] New FletApp: m8kxEDpb
+2025-06-16 14:16:40,654 [INFO] New session created (2 total): _9NTKeS5oXWsTr6cu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:16:40,656 [INFO] Start session: 9NTKeS5oXWsTr6cu
+2025-06-16 14:16:40,851 [INFO] Session disconnected: _RbXWU8Bzu0X58JJh_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:19:05,158 [INFO] Session disconnected: _9NTKeS5oXWsTr6cu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:19:05,258 [INFO] Shutting down Flet App Manager
+2025-06-16 14:19:05,258 [INFO] Deleting temp dir: /tmp/tmp80ucxh7l
+2025-06-16 14:19:05,259 [INFO] Flet app has started...
+2025-06-16 14:19:05,259 [INFO] Closing Flet web server...
+2025-06-16 14:19:08,137 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:19:08,567 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:19:08,569 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:19:08,569 [INFO] Use color emoji: False
+2025-06-16 14:19:08,569 [INFO] Route URL strategy configured: path
+2025-06-16 14:19:08,600 [INFO] Starting up Flet App Manager
+2025-06-16 14:19:08,600 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:19:09,448 [INFO] Temp dir created for patched index and manifest: /tmp/tmptehwccwk
+2025-06-16 14:19:09,448 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:19:09,448 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:19:09,449 [INFO] Assets dir: None
+2025-06-16 14:19:10,436 [INFO] New FletApp: T9l4O96H
+2025-06-16 14:19:10,458 [INFO] New session created (1 total): _m3pzaTL7jIa4k9E4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:19:10,459 [INFO] Start session: m3pzaTL7jIa4k9E4
+2025-06-16 14:19:10,513 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:19:11,766 [INFO] New FletApp: JVNFXbvY
+2025-06-16 14:19:11,820 [INFO] New session created (2 total): _PumRWBOruc9qYN1A_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:19:11,820 [INFO] Start session: PumRWBOruc9qYN1A
+2025-06-16 14:19:12,741 [INFO] Session disconnected: _m3pzaTL7jIa4k9E4_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:25:26,671 [INFO] Session disconnected: _PumRWBOruc9qYN1A_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:25:26,772 [INFO] Shutting down Flet App Manager
+2025-06-16 14:25:26,773 [INFO] Deleting temp dir: /tmp/tmptehwccwk
+2025-06-16 14:25:26,775 [INFO] Flet app has started...
+2025-06-16 14:25:26,775 [INFO] Closing Flet web server...
+2025-06-16 14:25:30,595 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:25:31,015 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:25:31,016 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:25:31,017 [INFO] Use color emoji: False
+2025-06-16 14:25:31,017 [INFO] Route URL strategy configured: path
+2025-06-16 14:25:31,052 [INFO] Starting up Flet App Manager
+2025-06-16 14:25:31,054 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:25:31,695 [INFO] New FletApp: jcdLRriY
+2025-06-16 14:25:31,698 [INFO] New session created (1 total): _OW5JWkBgjtqctLhL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:25:31,698 [INFO] Start session: OW5JWkBgjtqctLhL
+2025-06-16 14:25:31,719 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:25:31,951 [INFO] Temp dir created for patched index and manifest: /tmp/tmpm1iwlb91
+2025-06-16 14:25:31,952 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:25:31,952 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:25:31,952 [INFO] Assets dir: None
+2025-06-16 14:25:33,658 [INFO] New FletApp: aCCnJ7H3
+2025-06-16 14:25:33,703 [INFO] New session created (2 total): _eSCYXbr2IeGdFmof_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:25:33,705 [INFO] Start session: eSCYXbr2IeGdFmof
+2025-06-16 14:27:44,411 [INFO] Session disconnected: _OW5JWkBgjtqctLhL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:27:44,415 [INFO] Session disconnected: _eSCYXbr2IeGdFmof_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:27:44,515 [INFO] Shutting down Flet App Manager
+2025-06-16 14:27:44,518 [INFO] Deleting temp dir: /tmp/tmpm1iwlb91
+2025-06-16 14:27:44,523 [INFO] Flet app has started...
+2025-06-16 14:27:44,524 [INFO] Closing Flet web server...
+2025-06-16 14:27:47,372 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:27:47,852 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:27:47,853 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:27:47,853 [INFO] Use color emoji: False
+2025-06-16 14:27:47,853 [INFO] Route URL strategy configured: path
+2025-06-16 14:27:47,893 [INFO] Starting up Flet App Manager
+2025-06-16 14:27:47,893 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:27:48,153 [INFO] New FletApp: xodei8lQ
+2025-06-16 14:27:48,168 [INFO] New FletApp: pos6VQCC
+2025-06-16 14:27:48,176 [INFO] New session created (1 total): _3xaAEAgfxV10QJnJ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:27:48,177 [INFO] Start session: 3xaAEAgfxV10QJnJ
+2025-06-16 14:27:48,195 [INFO] New session created (2 total): _LM4kQysTB0Kcu5Cz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:27:48,201 [INFO] Start session: LM4kQysTB0Kcu5Cz
+2025-06-16 14:27:48,219 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:27:48,221 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:27:48,855 [INFO] Temp dir created for patched index and manifest: /tmp/tmphxeuywn1
+2025-06-16 14:27:48,855 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:27:48,855 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:27:48,855 [INFO] Assets dir: None
+2025-06-16 14:27:50,504 [INFO] New FletApp: po9z0wQL
+2025-06-16 14:27:50,552 [INFO] New session created (3 total): _zDPgs0LspZOaVPsp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:27:50,552 [INFO] Start session: zDPgs0LspZOaVPsp
+2025-06-16 14:35:45,629 [INFO] Session disconnected: _3xaAEAgfxV10QJnJ_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:45,629 [INFO] Session disconnected: _LM4kQysTB0Kcu5Cz_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:45,630 [INFO] Session disconnected: _zDPgs0LspZOaVPsp_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:45,729 [INFO] Shutting down Flet App Manager
+2025-06-16 14:35:45,729 [INFO] Deleting temp dir: /tmp/tmphxeuywn1
+2025-06-16 14:35:45,730 [INFO] Flet app has started...
+2025-06-16 14:35:45,730 [INFO] Closing Flet web server...
+2025-06-16 14:35:48,932 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:35:49,396 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:35:49,397 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:35:49,397 [INFO] Use color emoji: False
+2025-06-16 14:35:49,397 [INFO] Route URL strategy configured: path
+2025-06-16 14:35:49,429 [INFO] Starting up Flet App Manager
+2025-06-16 14:35:49,429 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:35:49,633 [INFO] New FletApp: dAtDcNR1
+2025-06-16 14:35:49,644 [INFO] New FletApp: Zrw3lbFJ
+2025-06-16 14:35:49,647 [INFO] New session created (1 total): _EmEq9uG71rIlODAG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:49,651 [INFO] Start session: EmEq9uG71rIlODAG
+2025-06-16 14:35:49,669 [INFO] New session created (2 total): _f4s9UKLgfcn2thcu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:49,670 [INFO] Start session: f4s9UKLgfcn2thcu
+2025-06-16 14:35:49,686 [INFO] New FletApp: hx2ugkFa
+2025-06-16 14:35:49,718 [INFO] New session created (3 total): _z5SqHthR0lasoriq_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:49,719 [INFO] Start session: z5SqHthR0lasoriq
+2025-06-16 14:35:49,719 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:35:49,724 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:35:49,734 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:35:50,365 [INFO] Temp dir created for patched index and manifest: /tmp/tmpd3n1z6f1
+2025-06-16 14:35:50,366 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:35:50,366 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:35:50,366 [INFO] Assets dir: None
+2025-06-16 14:35:52,069 [INFO] New FletApp: Sny8PR89
+2025-06-16 14:35:52,149 [INFO] New session created (4 total): _N3KvGUr6szmVSLPD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:52,150 [INFO] Start session: N3KvGUr6szmVSLPD
+2025-06-16 14:35:57,168 [INFO] Session disconnected: _z5SqHthR0lasoriq_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:57,701 [INFO] Session disconnected: _EmEq9uG71rIlODAG_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:35:58,733 [INFO] Session disconnected: _f4s9UKLgfcn2thcu_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:38:35,030 [INFO] Session disconnected: _N3KvGUr6szmVSLPD_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:38:35,132 [INFO] Shutting down Flet App Manager
+2025-06-16 14:38:35,132 [INFO] Deleting temp dir: /tmp/tmpd3n1z6f1
+2025-06-16 14:38:35,134 [INFO] Flet app has started...
+2025-06-16 14:38:35,134 [INFO] Closing Flet web server...
+2025-06-16 14:38:38,428 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:38:38,845 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:38:38,846 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:38:38,846 [INFO] Use color emoji: False
+2025-06-16 14:38:38,847 [INFO] Route URL strategy configured: path
+2025-06-16 14:38:38,879 [INFO] Starting up Flet App Manager
+2025-06-16 14:38:38,880 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:38:39,359 [INFO] New FletApp: YXTD7lU7
+2025-06-16 14:38:39,375 [INFO] New session created (1 total): _2dpst5o1rSJi6703_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:38:39,376 [INFO] Start session: 2dpst5o1rSJi6703
+2025-06-16 14:38:39,415 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:38:39,854 [INFO] Temp dir created for patched index and manifest: /tmp/tmp3l4mmc6z
+2025-06-16 14:38:39,854 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:38:39,854 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:38:39,854 [INFO] Assets dir: None
+2025-06-16 14:38:41,552 [INFO] New FletApp: ulaIfO8k
+2025-06-16 14:38:41,594 [INFO] New session created (2 total): _ZfWE7HbaGcuNUYjM_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:38:41,596 [INFO] Start session: ZfWE7HbaGcuNUYjM
+2025-06-16 14:44:22,785 [INFO] Session disconnected: _2dpst5o1rSJi6703_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:44:22,787 [INFO] Session disconnected: _ZfWE7HbaGcuNUYjM_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:44:22,886 [INFO] Shutting down Flet App Manager
+2025-06-16 14:44:22,886 [INFO] Deleting temp dir: /tmp/tmp3l4mmc6z
+2025-06-16 14:44:22,887 [INFO] Flet app has started...
+2025-06-16 14:44:22,888 [INFO] Closing Flet web server...
+2025-06-16 14:44:26,342 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:44:26,797 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:44:26,798 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:44:26,798 [INFO] Use color emoji: False
+2025-06-16 14:44:26,798 [INFO] Route URL strategy configured: path
+2025-06-16 14:44:26,828 [INFO] Starting up Flet App Manager
+2025-06-16 14:44:26,829 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:44:27,557 [INFO] Temp dir created for patched index and manifest: /tmp/tmp_x32roiu
+2025-06-16 14:44:27,557 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:44:27,557 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:44:27,557 [INFO] Assets dir: None
+2025-06-16 14:44:29,539 [INFO] New FletApp: RHKxx5gi
+2025-06-16 14:44:29,590 [INFO] New session created (1 total): _pLI6ztV2jIXK1V4e_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:44:29,592 [INFO] Start session: pLI6ztV2jIXK1V4e
+2025-06-16 14:44:29,611 [INFO] New FletApp: 4vldSPGt
+2025-06-16 14:44:29,650 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:44:29,740 [INFO] New session created (2 total): _yeECdeBkYOSzl0FV_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:44:29,742 [INFO] Start session: yeECdeBkYOSzl0FV
+2025-06-16 14:44:29,749 [INFO] New FletApp: ixZWNsja
+2025-06-16 14:44:29,762 [INFO] New session created (3 total): _ZZru8H9CiQIUneuL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:44:29,856 [INFO] Start session: ZZru8H9CiQIUneuL
+2025-06-16 14:47:21,693 [INFO] Session disconnected: _pLI6ztV2jIXK1V4e_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:47:22,219 [INFO] Session disconnected: _yeECdeBkYOSzl0FV_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:47:46,931 [INFO] Session disconnected: _ZZru8H9CiQIUneuL_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:47:47,031 [INFO] Shutting down Flet App Manager
+2025-06-16 14:47:47,031 [INFO] Deleting temp dir: /tmp/tmp_x32roiu
+2025-06-16 14:47:47,032 [INFO] Flet app has started...
+2025-06-16 14:47:47,033 [INFO] Closing Flet web server...
+2025-06-16 14:47:49,708 [INFO] Assets path configured: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:47:50,213 [INFO] Starting Flet web server on port 8550...
+2025-06-16 14:47:50,214 [INFO] Web renderer configured: WebRenderer.CANVAS_KIT
+2025-06-16 14:47:50,215 [INFO] Use color emoji: False
+2025-06-16 14:47:50,215 [INFO] Route URL strategy configured: path
+2025-06-16 14:47:50,247 [INFO] Starting up Flet App Manager
+2025-06-16 14:47:50,247 [INFO] App URL: http://127.0.0.1:8550
+2025-06-16 14:47:51,297 [INFO] New FletApp: ePzwYnrr
+2025-06-16 14:47:51,442 [INFO] New session created (1 total): _UV9slhTkTmx4le3G_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:47:51,445 [INFO] Start session: UV9slhTkTmx4le3G
+2025-06-16 14:47:51,473 [INFO] Temp dir created for patched index and manifest: /tmp/tmpo5nnmo5n
+2025-06-16 14:47:51,478 [INFO] Web root: /media/sirwan/New Volume/VScode/ec2_backup_tool/.venv/lib/python3.13/site-packages/flet_web/web
+2025-06-16 14:47:51,479 [INFO] assets_dir does not exist: /media/sirwan/New Volume/VScode/ec2_backup_tool/assets
+2025-06-16 14:47:51,481 [INFO] Assets dir: None
+2025-06-16 14:47:51,479 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-16 14:47:53,267 [INFO] Session disconnected: _UV9slhTkTmx4le3G_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:47:53,475 [INFO] New FletApp: 9eMBnynE
+2025-06-16 14:47:53,545 [INFO] New session created (2 total): _iALgmqqK2D16YySv_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:47:53,545 [INFO] Start session: iALgmqqK2D16YySv
+2025-06-16 14:48:08,065 [INFO] 🗑️ Deleted snapshot: snap-01e13488ebca4d802
+2025-06-16 14:48:42,889 [INFO] 📸 Snapshot created: snap-03c1d722e06c85221
+2025-06-16 14:50:04,599 [INFO] 🗑️ Deleted snapshot: snap-0297e39fee884130f
+2025-06-16 14:50:20,366 [INFO] 🗑️ Deleted snapshot: snap-03c1d722e06c85221
+2025-06-16 14:55:21,170 [INFO] Session disconnected: _iALgmqqK2D16YySv_90ba30c5d7279c6dcfc7117a55498c6184e127a3
+2025-06-16 14:55:21,267 [INFO] Shutting down Flet App Manager
+2025-06-16 14:55:21,268 [INFO] Deleting temp dir: /tmp/tmpo5nnmo5n
+2025-06-16 14:55:21,269 [INFO] Flet app has started...
+2025-06-16 14:55:21,269 [INFO] Closing Flet web server...

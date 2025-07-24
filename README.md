@@ -1,46 +1,86 @@
-# EC2 Backup Tool
+# EBS Snapshot Tool - Clean Architecture
 
-This project provides a command-line interface for managing AWS EC2 snapshots. It allows users to create and restore snapshots of EC2 instances easily.
+This project provides a command-line interface for managing AWS EC2 snapshots using Clean Architecture principles with Domain-Driven Design.
 
-## Project Structure
+## Architecture Overview
+
+The project follows Clean Architecture with clear separation of concerns:
 
 ```
-ec2_backup_tool/
-├── backup.py        # Handles snapshot creation
-├── restore.py       # Manages the restore process
-├── utils.py         # Contains helper functions
-├── cli.py           # Command-line interface using Click
-├── requirements.txt  # Lists project dependencies
-├── logger.py           # save all logs in backup.log
-└── .env             # Stores AWS profile and region
+src/
+├── domain/                 # Enterprise Business Rules
+│   ├── entities/          # Domain entities (dataclasses)
+│   ├── repositories/      # Repository interfaces
+│   └── services/          # Domain services
+├── application/           # Application Business Rules
+│   ├── dtos/             # Data Transfer Objects (dataclasses)
+│   ├── use_cases/        # Application use cases
+│   └── validation.py     # Request validation using Pydantic
+├── infrastructure/       # External Interface Adapters
+│   ├── aws/              # AWS SDK implementations
+│   ├── config/           # Configuration with Pydantic models
+│   └── logging/          # Logging infrastructure
+└── presentation/         # User Interface
+    ├── cli/              # Command-line interface
+    └── web/              # Future web interface
 ```
+
+## Technology Stack
+
+- **Python 3.10+** with Poetry for dependency management
+- **Dataclasses** for domain entities and DTOs
+- **Pydantic** for configuration validation and request validation
+- **Dependency Injector** for IoC container
+- **Click** for CLI interface
+- **Boto3** for AWS integration
 
 ## Installation
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone <repository-url>
-   cd ec2_backup_tool
+   cd EBS_Snapshot_CLI_APP
    ```
 
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
+2. Install dependencies using Poetry:
+   ```bash
+   poetry install
    ```
 
 3. Set up your AWS credentials in the `.env` file:
    ```
    AWS_REGION=your_aws_region
+   AWS_PROFILE=your_aws_profile
+   LOG_LEVEL=INFO
+   LOG_FILE=backup.log
    ```
 
 ## Usage
 
-### Backup and Restore
+Run the application:
+```bash
+poetry run python -m src.presentation.cli.main
+```
 
-To create a snapshot or restore of an EC2 instance, use the following command:
+Or use the Poetry script:
+```bash
+poetry run ebs-snapshot
 ```
-python ./cli.py
-```
+
+## Features
+
+1. **Take Snapshot** - Create snapshots of EC2 instances with validation
+2. **List Snapshots** - View all snapshots for an instance
+3. **Delete Snapshot** - Remove snapshots with confirmation
+4. **Restore from Snapshot** - Restore instances from snapshots
+
+## Clean Architecture Benefits
+
+- **Testability**: Easy to unit test with mocked dependencies
+- **Maintainability**: Clear separation of concerns
+- **Flexibility**: Easy to add new interfaces (web, API, etc.)
+- **Validation**: Pydantic ensures data integrity at boundaries
+- **Configuration**: Environment-based configuration with validation
 
 ## Testing
 

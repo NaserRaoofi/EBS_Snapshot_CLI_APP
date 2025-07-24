@@ -1,21 +1,110 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "ec2-backup-tool"
+name = "ebs-snapshot-tool"
 version = "1.0.0"
-description = "AWS EC2 snapshot management CLI tool"
+description = "AWS EBS Snapshot Management Tool with Clean Architecture"
 authors = [
     { name = "Naser Raoofi", email = "sirwan.rauofi1370@gmail.com" }
 ]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["aws", "ebs", "snapshot", "cli", "devops"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities"
+]
 dependencies = [
-    "boto3",
-    "click",
-    "python-dotenv"
+    "boto3>=1.38.0",
+    "click>=8.2.0",
+    "python-dotenv>=1.1.0",
+    "dependency-injector>=4.41.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0"
 ]
 
-[tool.setuptools]
-py-modules = ["backup", "cli", "logger", "restore", "utils"]
+[project.scripts]
+ebs-snapshot = "src.presentation.cli.main:main"
+
+[project.urls]
+"Homepage" = "https://github.com/NaserRaoofi/EBS_Snapshot_CLI_APP"
+"Bug Reports" = "https://github.com/NaserRaoofi/EBS_Snapshot_CLI_APP/issues"
+"Source" = "https://github.com/NaserRaoofi/EBS_Snapshot_CLI_APP"
+
+[tool.poetry]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+pytest-mock = "^3.14.0"
+pytest-cov = "^4.0.0"
+pytest-asyncio = "^0.21.0"
+black = "^24.0.0"
+flake8 = "^7.0.0"
+mypy = "^1.8.0"
+bandit = "^1.7.0"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.venv
+  | \.pytest_cache
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["src"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--tb=short",
+    "--strict-markers",
+    "--disable-warnings"
+]
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests", 
+    "e2e: End-to-end tests"
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["*/tests/*", "*/test_*.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError"
+]

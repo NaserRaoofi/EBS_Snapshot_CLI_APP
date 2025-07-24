@@ -12,4 +12,17 @@ __pycache__/
 .venv/
 venv/
 ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
 tags

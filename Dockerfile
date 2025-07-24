@@ -1,19 +1,16 @@
-# syntax=docker/dockerfile:1
 FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install build tools
-RUN pip install --upgrade pip && pip install build
+RUN pip install --upgrade pip && pip install poetry
 
-# Copy source code
-COPY . .
+COPY pyproject.toml poetry.lock* ./
 
-# Build the wheel inside the container
-RUN python -m build
+RUN poetry config virtualenvs.create false && poetry install --no-dev
 
-# Install the built wheel
-RUN pip install --no-cache-dir dist/*.whl
+COPY src/ ./src/
+COPY .env* ./
 
-# (Optional) Set entrypoint or CMD
-# CMD ["python", "cli.py"]
+ENV PYTHONPATH=/app
+
+CMD ["python", "-m", "src.presentation.cli.main"]

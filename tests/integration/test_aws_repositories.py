@@ -1,8 +1,8 @@
 import pytest
 from unittest.mock import Mock, patch
-from ...domain.entities import EC2Instance, EBSVolume, Snapshot
-from ...domain.repositories import EC2Repository, SnapshotRepository, VolumeRepository
-from .. import AWSEC2Repository, AWSSnapshotRepository, AWSVolumeRepository
+from src.domain.entities import EC2Instance, EBSVolume, Snapshot
+from src.domain.repositories import EC2Repository, SnapshotRepository, VolumeRepository
+from src.infrastructure.aws import AWSEC2Repository, AWSSnapshotRepository, AWSVolumeRepository
 
 
 class TestAWSEC2Repository:

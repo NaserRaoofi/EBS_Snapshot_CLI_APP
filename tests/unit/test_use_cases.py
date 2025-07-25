@@ -1,8 +1,8 @@
 import pytest
 from unittest.mock import Mock
-from ...application.dtos import CreateSnapshotRequest, CreateSnapshotResponse
-from ...domain.services import SnapshotService
-from .. import CreateSnapshotUseCase
+from src.application.dtos import CreateSnapshotRequest, CreateSnapshotResponse
+from src.domain.services import SnapshotService
+from src.application.use_cases import CreateSnapshotUseCase
 
 
 @pytest.mark.unit

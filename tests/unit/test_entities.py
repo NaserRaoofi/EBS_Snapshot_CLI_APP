@@ -1,6 +1,6 @@
 import pytest
 from datetime import datetime
-from ..entities import EC2Instance, EBSVolume, Snapshot, SnapshotRequest
+from src.domain.entities import EC2Instance, EBSVolume, Snapshot, SnapshotRequest
 
 
 class TestEC2Instance:

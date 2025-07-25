@@ -1,8 +1,8 @@
 import pytest
 from unittest.mock import Mock
-from ...domain.entities import EC2Instance, SnapshotRequest
-from ...domain.repositories import EC2Repository, SnapshotRepository
-from .. import EC2Service, SnapshotService
+from src.domain.entities import EC2Instance, SnapshotRequest
+from src.domain.repositories import EC2Repository, SnapshotRepository
+from src.domain.services import EC2Service, SnapshotService
 
 
 class TestEC2Service:
@@ -23,7 +23,7 @@ class TestEC2Service:
         self.mock_ec2_repo.list_running_instances.assert_called_once_with("us-east-1")
 
     def test_get_root_volume(self):
-        from ...domain.entities import EBSVolume
+        from src.domain.entities import EBSVolume
 
         expected_volume = EBSVolume("vol-123", "/dev/sda1", "i-123", 8, "gp3", True)
         self.mock_ec2_repo.get_root_volume.return_value = expected_volume
@@ -41,7 +41,7 @@ class TestSnapshotService:
         self.service = SnapshotService(self.mock_ec2_repo, self.mock_snapshot_repo)
 
     def test_create_instance_snapshot_success(self):
-        from ...domain.entities import EBSVolume
+        from src.domain.entities import EBSVolume
 
         root_volume = EBSVolume("vol-123", "/dev/sda1", "i-123", 8, "gp3", True)
         self.mock_ec2_repo.get_root_volume.return_value = root_volume
